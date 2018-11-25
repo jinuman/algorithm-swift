@@ -2,7 +2,7 @@
 
 import Foundation
 
-class B1260 {
+class B_1260 {
     var graph: [[Int]] = [[]]
     var check: [Bool] = []
 
@@ -35,7 +35,7 @@ class B1260 {
     }
 }
 
-extension B1260 {
+extension B_1260 {
     func dfs(_ x: Int) {
         check[x] = true
         print(x, terminator: " ")
@@ -48,7 +48,7 @@ extension B1260 {
     }
 }
 
-extension B1260 {
+extension B_1260 {
     func bfs(_ start: Int) {
         var queue: [Int] = []
         check[start] = true
@@ -66,7 +66,7 @@ extension B1260 {
     }
 }
 
-//B1260().run()
+//B_1260().run()
 
 /*
 4 5 1

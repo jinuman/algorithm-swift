@@ -2,7 +2,7 @@
 
 import Foundation
 
-class B11718 {
+class B_11718 {
     func run() {
         for _ in 0..<100 {
             guard let line = readLine() else { break }
@@ -11,7 +11,7 @@ class B11718 {
     }
 }
 
-//B11718().run()
+//B_11718().run()
 
 /*
 Hello
