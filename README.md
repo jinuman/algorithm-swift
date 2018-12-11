@@ -5,6 +5,7 @@
 ## Categories
 
 * [Basic](#Basic)
+* [Math](#Math)
 * [Graph](#Graph)
 * [Implementation](#Implementation)
 
@@ -16,6 +17,10 @@
 - [백준 11719 - 그대로 출력하기 2](Basic/B_11719.swift)
 - [백준 10818 - 최소, 최대](Basic/B_10818.swift)
 - [백준 10872 - 팩토리얼](Basic/B_10872.swift)
+
+### Math
+
+- [백준 1929 - 소수 구하기](Math/B_1929.swift)
 
 ### Graph
 
