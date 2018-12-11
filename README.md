@@ -21,6 +21,7 @@
 ### Math
 
 - [백준 1929 - 소수 구하기](Math/B_1929.swift)
+- [백준 9613 - GCD 합](Math/B_9613.swift)
 
 ### Graph
 
