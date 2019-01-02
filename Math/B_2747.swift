@@ -4,19 +4,19 @@
 import Foundation
 
 class B_2747 {
+    var arr: [Int] = [0, 1]
     func run() {
-        if let input = readLine() {
-            let n = Int(input) ?? 0
-            var arr = [Int].init(repeating: 0, count: n + 1)
-            if n == 0 {
-                print(0)
-            } else if n > 0{
-                arr[1] = 1
-                for i in stride(from: 2, through: n, by: 1) {
-                    arr[i] = arr[i - 1] + arr[i - 2]
-                }
-                print(arr.last ?? 0)
+        guard
+                let input = readLine(),
+                let n = Int(input)
+                else { return }
+        if n == 0 || n == 1 {
+            print(arr[n])
+        } else {
+            for i in stride(from: 2, through: n, by: 1) {
+                arr.append(arr[i - 1] + arr[i - 2])
             }
+            print(arr[n])
         }
     }
 }
