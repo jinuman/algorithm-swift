@@ -17,6 +17,7 @@
 
 - [백준 11718 - 그대로 출력하기](Basic/B_11718.swift)
 - [백준 11719 - 그대로 출력하기 2](Basic/B_11719.swift)
+- [백준 11720 - 숫자의 합](Basic/B_11720.swift)
 - [백준 10818 - 최소, 최대](Basic/B_10818.swift)
 - [백준 10824 - 네 수](Basic/B_10824.swift)
 - [프로그래머스 - 예산](Basic/P_Budget.swift)
