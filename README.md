@@ -6,6 +6,7 @@
 
 * [Basic](#Basic)
 * [Math](#Math)
+* [String](#String)
 * [Sort](#Sort)
 * [Graph](#Graph)
 * [Implementation](#Implementation)
@@ -30,6 +31,10 @@
 - [백준 2747 - 피보나치 수](Math/B_2747.swift)
 - [백준 1929 - 소수 구하기](Math/B_1929.swift)
 - [백준 9613 - GCD 합](Math/B_9613.swift)
+
+### String
+
+- [백준 1152 - 단어의 개수](String/B_1152.swift)
 
 ### Sort
 
