@@ -35,6 +35,7 @@
 ### String
 
 - [백준 1152 - 단어의 개수](String/B_1152.swift)
+- [백준 10808 - 알파벳 개수](String/B_10808.swift)
 
 ### Sort
 
