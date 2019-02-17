@@ -5,7 +5,9 @@ import Foundation
 class B_10818 {
     func run() {
         if let _ = readLine() {
-            guard let line = readLine() else { return }
+            guard let line = readLine() else {
+                return
+            }
             let array: [Int] = line.components(separatedBy: " ").map {
                 Int($0)!
             }

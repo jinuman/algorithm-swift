@@ -8,8 +8,12 @@ class B_11720 {
         guard
                 let _ = readLine(),
                 let line = readLine()
-                else { return }
-        let numbers = Array(line).compactMap { Int(String($0)) }
+                else {
+            return
+        }
+        let numbers = Array(line).compactMap {
+            Int(String($0))
+        }
         print(numbers.reduce(0, +))
     }
 }

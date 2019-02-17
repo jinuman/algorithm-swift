@@ -30,8 +30,8 @@ class P_NewsClustering {
         }
 
         // 두 글자 빈도수 저장
-        var weight1 = [String:Int]()
-        var weight2 = [String:Int]()
+        var weight1 = [String: Int]()
+        var weight2 = [String: Int]()
         for element in arr1 {
             weight1[element] = (weight1[element] ?? 0) + 1
         }
@@ -57,7 +57,9 @@ class P_NewsClustering {
         }
 
         var answer: Int = 0
-        guard bothEmpty == false else { return 65536 }
+        guard bothEmpty == false else {
+            return 65536
+        }
         answer = Int(Double(interNum) / Double(unionNum) * 65536)
         return answer
     }

@@ -26,6 +26,7 @@ class B_1929 {
             }
         }
     }
+
     func run() {
         let inputs = readLine()!.components(separatedBy: " ").map {
             Int($0) ?? 0

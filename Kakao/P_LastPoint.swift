@@ -5,8 +5,12 @@ import Foundation
 
 class P_LastPoint {
     func solution(_ v: [[Int]]) -> [Int] {
-        let xArr: [Int] = v.map { $0[0] }
-        let yArr: [Int] = v.map { $0[1] }
+        let xArr: [Int] = v.map {
+            $0[0]
+        }
+        let yArr: [Int] = v.map {
+            $0[1]
+        }
         let x: Int = xArr.reduce(0, ^)
         let y: Int = yArr.reduce(0, ^)
         return [x, y]

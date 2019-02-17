@@ -5,7 +5,9 @@ import Foundation
 class B_11718 {
     func run() {
         for _ in 0..<100 {
-            guard let line = readLine() else { break }
+            guard let line = readLine() else {
+                break
+            }
             print(line)
         }
     }

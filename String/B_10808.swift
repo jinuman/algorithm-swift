@@ -5,14 +5,18 @@ import Foundation
 
 class B_10808 {
     func run() {
-        guard let input = readLine() else { return }
+        guard let input = readLine() else {
+            return
+        }
         let alphabetArr = Array("abcdefghijklmnopqrstuvwxyz")
         var cntArr = [Int].init(repeating: 0, count: alphabetArr.count)
         input.forEach { ch in
             let idx = alphabetArr.firstIndex(of: ch) ?? -1
             cntArr[idx] += 1
         }
-        print(cntArr.map { String($0) }.joined(separator: " "))
+        print(cntArr.map {
+            String($0)
+        }.joined(separator: " "))
     }
 }
 

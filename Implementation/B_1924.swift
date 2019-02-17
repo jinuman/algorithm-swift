@@ -13,7 +13,7 @@ class B_1924 {
         }
         let month = date[0]
         let day = date[1]
-        totalDays = months[0..<month-1].reduce(0, {$0 + $1}) + day
+        totalDays = months[0..<month - 1].reduce(0, { $0 + $1 }) + day
         print(days[totalDays % 7])
     }
 }

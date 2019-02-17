@@ -7,7 +7,9 @@ class B_11719 {
         var lineNum: Int = 100
         while lineNum != 0 {
             lineNum -= 1
-            guard let line = readLine() else { break }
+            guard let line = readLine() else {
+                break
+            }
             print(line)
         }
     }

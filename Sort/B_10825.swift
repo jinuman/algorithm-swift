@@ -15,6 +15,7 @@ class B_10825 {
     }
 
     typealias st = Student
+
     func run() {
         if let n = Int(readLine() ?? "") {
 
