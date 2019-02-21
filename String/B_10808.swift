@@ -20,8 +20,6 @@ class B_10808 {
     }
 }
 
-//B_10808().run()
-
 /*
 input
 baekjoon

@@ -42,11 +42,10 @@ class B_1929 {
     }
 }
 
-// B_1929().run()
-
 /*
 input
 3 16
+
 output
 3
 5

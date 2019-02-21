@@ -13,8 +13,6 @@ class B_11718 {
     }
 }
 
-//B_11718().run()
-
 /*
 Hello
 Baekjoon

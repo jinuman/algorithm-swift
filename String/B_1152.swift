@@ -12,8 +12,6 @@ class B_1152 {
     }
 }
 
-//B_1152().run()
-
 /*
 input
  Mazatneunde Wae Teullyeoyo

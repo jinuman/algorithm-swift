@@ -24,11 +24,10 @@ class B_2747 {
     }
 }
 
-// B_2747().run()
-
 /*
 input
 10
+
 output
 55
 */

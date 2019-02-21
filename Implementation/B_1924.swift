@@ -18,8 +18,10 @@ class B_1924 {
     }
 }
 
-//B_1924().run()
-
 /*
+input
 1 1
+
+output
+MON
 */
