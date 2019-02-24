@@ -1,4 +1,5 @@
 // 진법 변환 2
+// 10진수 to B진수
 
 import Foundation
 
