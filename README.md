@@ -32,6 +32,7 @@
 - [백준 1929 - 소수 구하기](Math/B_1929.swift)
 - [백준 9613 - GCD 합](Math/B_9613.swift)
 - [백준 1003 - 피보나치 함수](Math/B_1003.swift)
+- [백준 2745 - 진법 변환](Math/B_2745.swift)
 - [백준 11005 - 진법 변환 2](Math/B_11005.swift)
 
 ### String
