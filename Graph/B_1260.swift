@@ -4,7 +4,7 @@ import Foundation
 
 class B_1260 {
     var graph: [[Int]] = [[]]
-    var check: [Bool] = []
+    var isVisited: [Bool] = []
 
     func run() {
         let inputs: [Int] = readLine()!.split(separator: " ").map {
@@ -14,7 +14,7 @@ class B_1260 {
         let m = inputs[1]
         let startNode = inputs[2]
         graph = [[Int]].init(repeating: [], count: n + 1)
-        check = [Bool].init(repeating: false, count: n + 1)
+        isVisited = [Bool].init(repeating: false, count: n + 1)
         for _ in 0..<m {
             let edge = readLine()!.split(separator: " ").map {
                 Int($0)!
@@ -29,7 +29,7 @@ class B_1260 {
         }
         dfs(startNode)
         print()
-        check = [Bool].init(repeating: false, count: n + 1)
+        isVisited = [Bool].init(repeating: false, count: n + 1)
         bfs(startNode)
         print()
     }
@@ -37,11 +37,11 @@ class B_1260 {
 
 extension B_1260 {
     func dfs(_ x: Int) {
-        check[x] = true
+        isVisited[x] = true
         print(x, terminator: " ")
         for i in 0..<graph[x].count {
             let next = graph[x][i]
-            if !check[next] {
+            if !isVisited[next] {
                 dfs(next)
             }
         }
@@ -51,14 +51,14 @@ extension B_1260 {
 extension B_1260 {
     func bfs(_ start: Int) {
         var queue: [Int] = []
-        check[start] = true
+        isVisited[start] = true
         queue.append(start)
         while !queue.isEmpty {
             let x = queue.removeFirst()
             print(x, terminator: " ")
             for next in graph[x] {
-                if !check[next] {
-                    check[next] = true
+                if !isVisited[next] {
+                    isVisited[next] = true
                     queue.append(next)
                 }
             }
