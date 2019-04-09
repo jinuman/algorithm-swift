@@ -38,6 +38,7 @@ class B_2745 {
 /*
 input
 ZZZZZ 36
+
 output
 60466175
 */
