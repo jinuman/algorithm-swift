@@ -13,36 +13,40 @@ class B_10825 {
         let eng: Int
         let math: Int
     }
-
+    
     typealias st = Student
-
+    
     func run() {
         if let n = Int(readLine() ?? "") {
-
+            
             var students = [st]()
-
+            
             for _ in 0..<n {
                 if let s = readLine()?.split(separator: " ") {
                     students.append(st(name: String(s[0]), kor: Int(s[1]) ?? 0, eng: Int(s[2]) ?? 0, math: Int(s[3]) ?? 0))
                 }
             }
-
-            students.sort {
-                $0.kor != $1.kor
-                        ? $0.kor > $1.kor
-                        : ($0.eng != $1.eng
-                        ? $0.eng < $1.eng
-                        : ($0.math != $1.math
-                        ? $0.math > $1.math
-                        : $0.name < $1.name
-                )
-                )
+            
+            students.sort { (s0, s1) -> Bool in
+                if s0.kor != s1.kor {
+                    return s0.kor > s1.kor
+                } else {
+                    if s0.eng != s1.eng {
+                        return s0.eng < s1.eng
+                    } else {
+                        if s0.math != s1.math {
+                            return s0.math > s1.math
+                        } else {
+                            return s0.name < s1.name
+                        }
+                    }
+                }
             }
-
+            
             for i in 0..<n {
                 print("\(students[i].name)")
             }
-
+            
         }
     }
 }
