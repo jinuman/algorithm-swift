@@ -25,9 +25,13 @@
 - [프로그래머스 - x만큼 간격이 있는 n개의 숫자](Basic/P_SpacedByX.swift)
 - [프로그래머스 - 약수의 합](Basic/P_SumOfDivisors.swift)
 
-## Stack
+### Stack
 
 - [백준 10828 - 스택](Stack/B_10828.swift)
+
+### Queue
+
+- [백준 10845 - 큐](Queue/B_10845.swift)
 
 ### Math
 
