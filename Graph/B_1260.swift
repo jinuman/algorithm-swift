@@ -3,24 +3,24 @@
 import Foundation
 
 class B_1260 {
-    var graph: [[Int]] = [[]]
-    var isVisited: [Bool] = []
+    var graph = [[Int]]()
+    var isVisited = [Bool]()
 
     func run() {
-        let inputs: [Int] = readLine()!.split(separator: " ").map {
-            Int($0)!
-        }
+        guard let line = readLine()?.split(separator: " ") else { return }
+        let inputs = line.compactMap { Int($0) }
+        
         let n = inputs[0]
         let m = inputs[1]
         let startNode = inputs[2]
         graph = [[Int]].init(repeating: [], count: n + 1)
         isVisited = [Bool].init(repeating: false, count: n + 1)
         for _ in 0..<m {
-            let edge = readLine()!.split(separator: " ").map {
-                Int($0)!
-            }
+            guard let edgeLine = readLine()?.split(separator: " ") else { return }
+            let edge = edgeLine.compactMap { Int($0) }
             let u = edge[0]
             let v = edge[1]
+            
             graph[u].append(v)
             graph[v].append(u)
         }
