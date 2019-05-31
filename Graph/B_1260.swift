@@ -17,7 +17,7 @@ class B_1260 {
         isVisited = [Bool].init(repeating: false, count: n + 1)
         for _ in 0..<m {
             guard let edgeLine = readLine()?.split(separator: " ") else { return }
-            let edge = edgeLine.compactMap { Int($0) }
+            let edge: [Int] = edgeLine.compactMap { Int($0) }
             let u = edge[0]
             let v = edge[1]
             
