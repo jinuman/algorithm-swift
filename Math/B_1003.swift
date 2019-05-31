@@ -17,17 +17,10 @@ class B_1003 {
     private var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: 2), count: 41)
 
     func run() {
-        guard let line = readLine(),
-              let tc = Int(line) else {
-            return
-        }
+        guard let testcase = Int(readLine() ?? "0") else { return }
 
-        for _ in 0..<tc {
-            guard let line = readLine(),
-                  let n = Int(line) else {
-                return
-            }
-
+        for _ in 0..<testcase {
+            guard let n = Int(readLine() ?? "0") else { return }
             dp[0][0] = 1
             dp[1][1] = 1
 
