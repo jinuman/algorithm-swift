@@ -13,8 +13,8 @@ class P_2016 {
     }
 
     func run() {
-        let answer: String = solution(5, 24)
-        print(answer)
+        print(solution(5, 24))  // TUE
+        print(solution(1, 1))   // FRI
     }
 }
 
