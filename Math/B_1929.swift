@@ -1,41 +1,40 @@
 // 소수 구하기
 // 에라토스테네스의 체
-// 1. 범위의 check 배열을 만든다.
-// 2. 0번, 1번방을 true 로 하고, false 인 수 중 가장 작은 수를 찾는다.
+// 1. 범위의 isPrime Bool 타입 배열을 만들고 true 로 초기화한다.
+// 2. 0번, 1번방을 false 로 하고, true 인 수 중 가장 작은 수를 찾는다.
 // 3. 그 수는 이제 소수이다.
 // 4. 이제 그 수의 배수는 모두 소수가 아니다.
 
 import Foundation
 
 class B_1929 {
-    var isNotPrime = [Bool]()
-    let MAX: Double = 1000000
+    private var isPrime = [Bool]()
 
-    private func eratosthenes() {
-        // true : 소수 아님
-        isNotPrime = [Bool].init(repeating: false, count: Int(MAX) + 1)
-        for i in 0...Int(sqrt(MAX)) {
+    private func eratosthenes(max: Int) {
+        isPrime = [Bool].init(repeating: true, count: max + 1)
+        for i in 0...max {
             if i == 0 || i == 1 {
-                isNotPrime[0] = true
-                isNotPrime[1] = true
+                isPrime[0] = false
+                isPrime[1] = false
             }
-            if isNotPrime[i] == false {
-                for j in stride(from: i + i, through: Int(MAX), by: i) {
-                    isNotPrime[j] = true
+            if isPrime[i] {
+                for j in stride(from: i + i, through: max, by: i) {
+                    isPrime[j] = false
                 }
             }
         }
     }
 
     func run() {
-        let inputs = readLine()!.components(separatedBy: " ").map {
-            Int($0) ?? 0
-        }
-        let m = inputs[0]
-        let n = inputs[1]
-        eratosthenes()
-        for i in m...n {
-            if !isNotPrime[i] {
+        guard let line = readLine()?.components(separatedBy: " ") else { return }
+        let inputs = line.compactMap { Int($0) }
+        let start: Int = inputs[0]
+        let end: Int = inputs[1]
+        
+        eratosthenes(max: end)
+        
+        for i in (start...end) {
+            if isPrime[i] {
                 print(i)
             }
         }
