@@ -11,14 +11,12 @@ extension Array where Element == String {
 
 class B_11005 {
     func run() {
-        let arr = Array("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ").map {
-            String($0)
-        }
-        guard let input = readLine()?.split(separator: " ").compactMap({ Int($0) }) else {
-            return
-        }
+        let arr = Array("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ").map { String($0) }
+        guard let input: [Int] = readLine()?.split(separator: " ").compactMap({ Int($0) }) else { return }
+        
         var N = input[0]
         let B = input[1]
+        
         var result = [String]()
         while N != 0 {
             result.append((arr[N % B]))
