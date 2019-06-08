@@ -15,18 +15,15 @@ class B_9613 {
     }
 
     func run() {
-        let tc: Int = Int(readLine()!)!
-        var cases = [String]()
-        for _ in 0..<tc {
-            cases.append(readLine()!)
-        }
-        for i in 0..<tc {
-            var arr: [Int] = cases[i].components(separatedBy: " ").map {
-                Int($0) ?? -1
-            }
-            let n: Int = arr.first ?? -1
-            arr.remove(at: 0)
-            var result: Int = 0
+        guard let testcase = Int(readLine() ?? "0") else { return }
+        
+        for _ in 0..<testcase {
+            guard let caseLine = readLine()?.split(separator: " ") else { return }
+            var arr: [Int] = caseLine.compactMap { Int($0) }
+            let n = arr.first ?? -1
+            arr.removeFirst()
+            var result = 0
+            
             for i in stride(from: 0, to: n - 1, by: 1) {
                 for j in stride(from: i + 1, to: n, by: 1) {
                     result += gcd(arr[i], arr[j])
