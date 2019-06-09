@@ -31,29 +31,27 @@ class Queue {
 }
 
 class B_10845 {
-    
     func run() {
-        if let n = Int(readLine() ?? "0") {
-            let queue: Queue = Queue()
-            
-            for _ in 0..<n {
-                guard let cmd = readLine()?.components(separatedBy: " ") else { break }
-                switch cmd[0] {
-                case "push":
-                    queue.push(Int(cmd[1]) ?? 0)
-                case "pop":
-                    print(queue.pop())
-                case "size":
-                    print(queue.size())
-                case "empty":
-                    print(queue.empty())
-                case "front":
-                    print(queue.front() ?? -1)
-                case "back":
-                    print(queue.back() ?? -1)
-                default:
-                    break
-                }
+        guard let n = Int(readLine() ?? "0") else { return }
+        let queue: Queue = Queue()
+        
+        for _ in 0..<n {
+            guard let cmd = readLine()?.components(separatedBy: " ") else { break }
+            switch cmd[0] {
+            case "push":
+                queue.push(Int(cmd[1]) ?? 0)
+            case "pop":
+                print(queue.pop())
+            case "size":
+                print(queue.size())
+            case "empty":
+                print(queue.empty())
+            case "front":
+                print(queue.front() ?? -1)
+            case "back":
+                print(queue.back() ?? -1)
+            default:
+                break
             }
         }
     }
@@ -61,35 +59,35 @@ class B_10845 {
 }
 
 /*
- input
- 15
- push 1
- push 2
- front
- back
- size
- empty
- pop
- pop
- pop
- size
- empty
- pop
- push 3
- empty
- front
- 
- output
- 1
- 2
- 2
- 0
- 1
- 2
- -1
- 0
- 1
- -1
- 0
- 3
- */
+input
+15
+push 1
+push 2
+front
+back
+size
+empty
+pop
+pop
+pop
+size
+empty
+pop
+push 3
+empty
+front
+
+output
+1
+2
+2
+0
+1
+2
+-1
+0
+1
+-1
+0
+3
+*/
