@@ -5,9 +5,7 @@ import Foundation
 
 class B_1152 {
     func run() {
-        guard let input = readLine() else {
-            return
-        }
+        guard let input = readLine() else { return }
         print(input.split(separator: " ").count)
     }
 }
