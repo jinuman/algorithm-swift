@@ -12,7 +12,7 @@ class B_1929 {
 
     private func eratosthenes(max: Int) {
         isPrime = [Bool].init(repeating: true, count: max + 1)
-        for i in 0...max {
+        for i in 0 ... max {
             if i == 0 || i == 1 {
                 isPrime[0] = false
                 isPrime[1] = false
