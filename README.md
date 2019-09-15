@@ -4,6 +4,7 @@
 
 ## Categories
 
+* [Concept](#Concept)
 * [Basic](#Basic)
 * [Math](#Math)
 * [String](#String)
@@ -12,7 +13,11 @@
 * [Implementation](#Implementation)
 * [Kakao](#Kakao)
 
-* * * 
+* * *
+
+### Concept
+
+- [Selection Sort](Concept/SelectionSort.swift)
 
 ### Basic
 
