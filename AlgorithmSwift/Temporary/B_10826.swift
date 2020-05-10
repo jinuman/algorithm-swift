@@ -5,29 +5,17 @@
 import Foundation
 
 class B_10826 {
-    private var dic: [Int: Int64] = {
-        let dic: [Int : Int64] = [
-            0 : 0,
-            1 : 1,
-            2 : 1
-            ]
-        return dic
-    }()
-
-    private func fibonacci(_ n: Int) -> Int64 {
-        if dic.keys.contains(n) {
-            return dic[n] ?? -1
-        } else {
-            let next = fibonacci(n - 1) + fibonacci(n - 2)
-            dic[n] = next
-            return next
-        }
-    }
-
+    
     func run() {
-        let n = Int(readLine()!)!
-        print(fibonacci(n))
+        guard let n = Int(readLine() ?? "") else { return }
+        var dp = [Int64].init(repeating: 0, count: max(n + 1, 2))
+        dp[1] = 1
+        for i in 2 ... n {
+            dp[i] = dp[i - 1] + dp[i - 2]
+        }
+        print(dp[n])
     }
+    
 }
 
 /*
