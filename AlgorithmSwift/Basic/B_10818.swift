@@ -4,9 +4,7 @@ import Foundation
 
 class B_10818 {
     func run() {
-        guard
-            let _ = readLine(),
-            let line = readLine()?.components(separatedBy: " ") else { return }
+        guard let line = readLine()?.components(separatedBy: " ") else { return }
         
         let array: [Int] = line.compactMap { Int($0) }
         
