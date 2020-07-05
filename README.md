@@ -71,3 +71,7 @@
 - [프로그래머스 - 나머지 한 점](AlgorithmSwift/Kakao/P_LastPoint.swift)
 - [프로그래머스 - 뉴스 클러스터링](AlgorithmSwift/Kakao/P_NewsClustering.swift)
 
+### Codility
+
+- [BinaryGap](AlgorithmSwift/Codility/BinaryGap.swift)
+- [CyclicRotation](AlgorithmSwift/Codility/CyclicRotation.swift)
