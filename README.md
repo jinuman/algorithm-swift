@@ -75,3 +75,4 @@
 
 - [BinaryGap](AlgorithmSwift/Codility/BinaryGap.swift)
 - [CyclicRotation](AlgorithmSwift/Codility/CyclicRotation.swift)
+- [OddOccurrencesInArray](AlgorithmSwift/Codility/OddOccurrencesInArray.swift)
