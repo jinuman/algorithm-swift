@@ -17,24 +17,7 @@ struct Rect {
     }
 }
 
-class IntersectionRectArea {
-    func run() {
-        let p = readLine()!.components(separatedBy: " ").map {
-            Int($0)!
-        }
-        let q = readLine()!.components(separatedBy: " ").map {
-            Int($0)!
-        }
-        let r = readLine()!.components(separatedBy: " ").map {
-            Int($0)!
-        }
-        let s = readLine()!.components(separatedBy: " ").map {
-            Int($0)!
-        }
-
-        let result: Int = getIntersectionRectArea(p, q, r, s)
-        print(result)
-    }
+class Cupist_IntersectionRectArea {
 
     func getIntersectionRectArea(_ p: [Int], _ q: [Int], _ r: [Int], _ s: [Int]) -> Int {
         let rectA = Rect(p[0], p[1], q[0], q[1])
@@ -53,9 +36,27 @@ class IntersectionRectArea {
 
         return width * height
     }
-}
+    
+    func run() {
+        let p: [Int] = readLine()!
+            .components(separatedBy: " ")
+            .map { Int($0)! }
+        
+        let q: [Int] = readLine()!
+            .components(separatedBy: " ")
+            .map { Int($0)! }
+        
+        let r: [Int] = readLine()!
+            .components(separatedBy: " ")
+            .map { Int($0)! }
+        
+        let s: [Int] = readLine()!
+            .components(separatedBy: " ")
+            .map { Int($0)! }
 
-//IntersectionRectArea().run()
+        print(self.getIntersectionRectArea(p, q, r, s))
+    }
+}
 
 /*
 Input

@@ -47,7 +47,7 @@ class BinarySearch {
     }
     
     func run() {
-        binarySearch(for: 30, array: numbers)
+        self.binarySearch(for: 30, array: numbers)
     }
 }
 

@@ -16,10 +16,9 @@ class Naver_Intern_2 {
         var result = ""
         
         for i in (0 ..< size) {
-            /**
-             size % 3 == 1 일 때 끝에 2-2 형태가 올 수 있다.
-             
-             그러므로 이런 형태와 아닌 형태를 분기시켜서 코딩하면 될 것 같다는 생각을 했다.
+            /*
+             size % 3 == 1 인 경우에 끝에 2-2 형태가 올 수 있다.
+             그러므로 이런 형태와 아닌 형태를 분기시키면 될 것 같다는 생각을 했다.
              */
             
             result += numbers[i]
@@ -53,12 +52,12 @@ class Naver_Intern_2 {
         var testString2 = "0  -  22 1985  --- 324"
         var testString3 = "555372654"
         
-        print(solution(&testString1))
-        print(solution(&testString2))
-        print(solution(&testString3))
+        print(self.solution(&testString1)) // 004-448-555-583-61
+        print(self.solution(&testString2)) // 022-198-53-24
+        print(self.solution(&testString3)) // 555-372-654
         
         var test = "   0123 ---   456"
-        print(solution(&test))
+        print(self.solution(&test)) // 012-34-56
     }
 }
 

@@ -19,7 +19,6 @@
 		31C74253E338D91967458A3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74189462D00E5774733B9 /* main.swift */; };
 		31C742A4739E4741405875FE /* P_SumOfDivisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74C99A0CFF5D057055861 /* P_SumOfDivisors.swift */; };
 		31C743D3DD6A0615F28400DF /* Line_RLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C740A78E016248969EE2C0 /* Line_RLE.swift */; };
-		31C743F53390DCD18F9BBF39 /* Kakaopay_RankingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C743F0AEC53B867828097B /* Kakaopay_RankingPage.swift */; };
 		31C744BAF0E373A1674EF2EF /* B_10825.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7422080AF685DF4C6390D /* B_10825.swift */; };
 		31C7450574C67C5669C4F0CE /* Cupist_IntersectionRectArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74101E05BFABB899E9FB2 /* Cupist_IntersectionRectArea.swift */; };
 		31C745F1432526D7C5BA7660 /* B_2747.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74179C7187D80A91A10A6 /* B_2747.swift */; };
@@ -35,7 +34,6 @@
 		31C749736CC2D9E98D31C69C /* B_11720.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7429D6DB7AAFA33C50620 /* B_11720.swift */; };
 		31C74A5A2F58FAFDE75E3659 /* B_2745.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7480AD7AD860771F84318 /* B_2745.swift */; };
 		31C74B68D4592FB3EEA2B3BC /* B_2527.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74955076A870801DA864C /* B_2527.swift */; };
-		31C74B7EF02DF774AE79DB8E /* Kakaopay_CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74C014FE54A370C311768 /* Kakaopay_CoffeeMachine.swift */; };
 		31C74BEE67891A370D675F97 /* B_1152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C747F84944DA0AAED5CB27 /* B_1152.swift */; };
 		31C74CBFD3FCC2BDFA18CCE6 /* B_11719.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C7444BA434A220C815F345 /* B_11719.swift */; };
 		31C74D863F636EA248412FEA /* P_Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C74502C71756859306BF06 /* P_Budget.swift */; };
@@ -46,6 +44,7 @@
 		3610B252229D697200C2C25E /* P_GymSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610B251229D697200C2C25E /* P_GymSuit.swift */; };
 		3610B254229EB83C00C2C25E /* P_MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610B253229EB83C00C2C25E /* P_MakeBigNumber.swift */; };
 		362DB882232E9DF6003CF5CF /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DB881232E9DF6003CF5CF /* StringExtensions.swift */; };
+		363173AA24B1DD4F004468B8 /* TapeEquilibrium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363173A924B1DD4F004468B8 /* TapeEquilibrium.swift */; };
 		3664A13C231795930008EDB3 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13B231795930008EDB3 /* InsertionSort.swift */; };
 		3664A13E231795A30008EDB3 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13D231795A30008EDB3 /* BubbleSort.swift */; };
 		3664A140231795AD0008EDB3 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13F231795AD0008EDB3 /* SelectionSort.swift */; };
@@ -89,7 +88,6 @@
 		31C7422080AF685DF4C6390D /* B_10825.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_10825.swift; sourceTree = "<group>"; };
 		31C7429D6DB7AAFA33C50620 /* B_11720.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_11720.swift; sourceTree = "<group>"; };
 		31C742EC06AE4C00D6807228 /* B_11718.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_11718.swift; sourceTree = "<group>"; };
-		31C743F0AEC53B867828097B /* Kakaopay_RankingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kakaopay_RankingPage.swift; sourceTree = "<group>"; };
 		31C743FF5529D99FB2372534 /* B_11005.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_11005.swift; sourceTree = "<group>"; };
 		31C7444BA434A220C815F345 /* B_11719.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_11719.swift; sourceTree = "<group>"; };
 		31C744652B851671B17A8310 /* B_10872.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_10872.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		31C74A92DC2A118692532FEC /* B_9613.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_9613.swift; sourceTree = "<group>"; };
 		31C74B1FF2B7927EB2EA4001 /* B_1929.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_1929.swift; sourceTree = "<group>"; };
 		31C74B3D197209C3E5D8BE38 /* B_10826.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_10826.swift; sourceTree = "<group>"; };
-		31C74C014FE54A370C311768 /* Kakaopay_CoffeeMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kakaopay_CoffeeMachine.swift; sourceTree = "<group>"; };
 		31C74C99A0CFF5D057055861 /* P_SumOfDivisors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P_SumOfDivisors.swift; sourceTree = "<group>"; };
 		31C74F05303817B24D1AD91B /* B_10818.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_10818.swift; sourceTree = "<group>"; };
 		31C74F09C636E7509EE916E0 /* TestAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlgorithm.swift; sourceTree = "<group>"; };
@@ -116,6 +113,7 @@
 		3610B251229D697200C2C25E /* P_GymSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_GymSuit.swift; sourceTree = "<group>"; };
 		3610B253229EB83C00C2C25E /* P_MakeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_MakeBigNumber.swift; sourceTree = "<group>"; };
 		362DB881232E9DF6003CF5CF /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		363173A924B1DD4F004468B8 /* TapeEquilibrium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeEquilibrium.swift; sourceTree = "<group>"; };
 		3664A13B231795930008EDB3 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		3664A13D231795A30008EDB3 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		3664A13F231795AD0008EDB3 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
@@ -261,8 +259,6 @@
 				31C740A78E016248969EE2C0 /* Line_RLE.swift */,
 				31C74A2173EA30586A30EB15 /* Line_TrafficCard.swift */,
 				31C74857DF84FFCF9CCCD2FE /* Kakaopay_PhoneNum.swift */,
-				31C74C014FE54A370C311768 /* Kakaopay_CoffeeMachine.swift */,
-				31C743F0AEC53B867828097B /* Kakaopay_RankingPage.swift */,
 			);
 			path = Recruit;
 			sourceTree = "<group>";
@@ -338,6 +334,7 @@
 				36986DB5232CD40D001B7A3A /* OddOccurrencesInArray.swift */,
 				36986DB9232D0FA0001B7A3A /* FrogJmp.swift */,
 				36986DBB232D32ED001B7A3A /* PermMissingElem.swift */,
+				363173A924B1DD4F004468B8 /* TapeEquilibrium.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -434,6 +431,7 @@
 				31C740E178BA13EDBC08F9D3 /* B_1929.swift in Sources */,
 				31C74787F0397B04364A7809 /* B_9613.swift in Sources */,
 				31C740767C025FA013F6EEC9 /* B_10872.swift in Sources */,
+				363173AA24B1DD4F004468B8 /* TapeEquilibrium.swift in Sources */,
 				36A73F20232F6ED6009AD57B /* Naver_Intern_2.swift in Sources */,
 				31C745F1432526D7C5BA7660 /* B_2747.swift in Sources */,
 				36B6D88122659C7300AFFF6C /* B_10845.swift in Sources */,
@@ -451,8 +449,6 @@
 				31C74D863F636EA248412FEA /* P_Budget.swift in Sources */,
 				36FA8F5B2266C7BB00608635 /* B_11050.swift in Sources */,
 				31C748A9FEA51FA7896031AF /* Kakaopay_PhoneNum.swift in Sources */,
-				31C74B7EF02DF774AE79DB8E /* Kakaopay_CoffeeMachine.swift in Sources */,
-				31C743F53390DCD18F9BBF39 /* Kakaopay_RankingPage.swift in Sources */,
 				31C746D42F70AD07E29D41BC /* B_10826.swift in Sources */,
 				31C749736CC2D9E98D31C69C /* B_11720.swift in Sources */,
 				31C742A4739E4741405875FE /* P_SumOfDivisors.swift in Sources */,

@@ -1,3 +1,3 @@
 import Foundation
 
-OddOccurrencesInArray().run()
+Naver_Intern_2().run()

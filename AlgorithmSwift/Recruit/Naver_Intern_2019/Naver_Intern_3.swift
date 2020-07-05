@@ -28,8 +28,8 @@ class Naver_Intern_3 {
         var testString1 = "We test coders. Give us a try?"
         var testString2 = "Forget   CVs..Save time  . x x"
         var testString3 = "hello?hi"
-        print(solution(&testString1))  // 4
-        print(solution(&testString2))  // 2
-        print(solution(&testString3))  // 2
+        print(self.solution(&testString1))  // 4
+        print(self.solution(&testString2))  // 2
+        print(self.solution(&testString3))  // 1
     }
 }

@@ -1,5 +1,7 @@
 // Lesson 03 : Time Complexity
 
+// the elements of A are all distinct
+
 import Foundation
 
 class PermMissingElem {
