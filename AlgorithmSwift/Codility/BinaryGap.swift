@@ -47,15 +47,15 @@ class BinaryGap {
     }
     
     func run() {
-        print(solution1(15))  // 0
-        print(solution1(13))  // 1
-        print(solution1(32))  // 0
-        print(solution1(17))  // 3
+        print(self.solution1(15))  // 0
+        print(self.solution1(13))  // 1
+        print(self.solution1(32))  // 0
+        print(self.solution1(17))  // 3
         
-        print(solution2(1))  // 0
-        print(solution2(13))  // 1
-        print(solution2(32))  // 0
-        print(solution2(17))  // 3
-        print(solution2(580)) // 3
+        print(self.solution2(1))  // 0
+        print(self.solution2(13))  // 1
+        print(self.solution2(32))  // 0
+        print(self.solution2(17))  // 3
+        print(self.solution2(580)) // 3
     }
 }

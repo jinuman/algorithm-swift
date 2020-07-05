@@ -12,7 +12,7 @@ class PermMissingElem {
     func run() {
         var testArray1 = [2, 3, 1, 5]
         var testArray2 = [3, 4, 1, 5]
-        print(solution(&testArray1))  // 4
-        print(solution(&testArray2))  // 2
+        print(self.solution(&testArray1))  // 4
+        print(self.solution(&testArray2))  // 2
     }
 }

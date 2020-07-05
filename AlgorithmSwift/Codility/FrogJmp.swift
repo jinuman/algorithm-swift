@@ -11,6 +11,6 @@ class FrogJmp {
     }
     
     func run() {
-        print(solution(10, 85, 30)) // 3
+        print(self.solution(10, 85, 30)) // 3
     }
 }
