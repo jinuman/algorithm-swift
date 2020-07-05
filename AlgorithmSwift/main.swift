@@ -1,3 +1,3 @@
 import Foundation
 
-B_10826().run()
+BinaryGap().run()
