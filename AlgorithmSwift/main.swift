@@ -1,3 +1,3 @@
 import Foundation
 
-Naver_Intern_2().run()
+JobFair_Anagram().run()

@@ -5,7 +5,7 @@
 
 import Foundation
 
-class OddOccurrencesInArray {
+struct OddOccurrencesInArray {
     func solution(_ A: inout [Int]) -> Int {
         return A.reduce(0, ^)
     }

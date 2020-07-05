@@ -4,7 +4,7 @@
 
 import Foundation
 
-class BinaryGap {
+struct BinaryGap {
     // 일반 버전
     func solution1(_ N: Int) -> Int {
         var number = N

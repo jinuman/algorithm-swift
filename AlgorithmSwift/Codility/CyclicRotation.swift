@@ -2,7 +2,7 @@
 
 import Foundation
 
-class CyclicRotation {
+struct CyclicRotation {
     
     func solution(_ A: inout [Int], _ K: Int) -> [Int] {
         var resultArray = [Int].init(repeating: 0, count: A.count)

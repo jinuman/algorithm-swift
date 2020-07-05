@@ -2,7 +2,7 @@
 
 import Foundation
 
-class FrogJmp {
+struct FrogJmp {
     func solution(_ X: Int, _ Y: Int, _ D: Int) -> Int {
         let distance = abs(Y - X)
         return distance % D == 0

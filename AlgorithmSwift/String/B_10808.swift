@@ -6,10 +6,10 @@ import Foundation
 class B_10808 {
     func run() {
         guard let input = readLine() else { return }
-        let alphabet = Array("abcdefghijklmnopqrstuvwxyz")
-        var result = [Int].init(repeating: 0, count: alphabet.count)
+        let alphabets = Array("abcdefghijklmnopqrstuvwxyz")
+        var result = [Int].init(repeating: 0, count: alphabets.count)
         input.forEach { ch in
-            guard let idx = alphabet.firstIndex(of: ch) else { return }
+            guard let idx = alphabets.firstIndex(of: ch) else { return }
             result[idx] += 1
         }
         print(result.map { String($0) }

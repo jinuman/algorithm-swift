@@ -4,7 +4,7 @@
 
 import Foundation
 
-class PermMissingElem {
+struct PermMissingElem {
     func solution(_ A: inout [Int]) -> Int {
         let sum = (0 ... A.count + 1).reduce(0, +)
         let sumOfA = A.reduce(0, +)

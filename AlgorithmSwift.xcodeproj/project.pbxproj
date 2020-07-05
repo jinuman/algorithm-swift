@@ -45,6 +45,7 @@
 		3610B254229EB83C00C2C25E /* P_MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3610B253229EB83C00C2C25E /* P_MakeBigNumber.swift */; };
 		362DB882232E9DF6003CF5CF /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DB881232E9DF6003CF5CF /* StringExtensions.swift */; };
 		363173AA24B1DD4F004468B8 /* TapeEquilibrium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363173A924B1DD4F004468B8 /* TapeEquilibrium.swift */; };
+		363173AD24B1EC9F004468B8 /* JobFair_Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363173AC24B1EC9F004468B8 /* JobFair_Anagram.swift */; };
 		3664A13C231795930008EDB3 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13B231795930008EDB3 /* InsertionSort.swift */; };
 		3664A13E231795A30008EDB3 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13D231795A30008EDB3 /* BubbleSort.swift */; };
 		3664A140231795AD0008EDB3 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13F231795AD0008EDB3 /* SelectionSort.swift */; };
@@ -114,6 +115,7 @@
 		3610B253229EB83C00C2C25E /* P_MakeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_MakeBigNumber.swift; sourceTree = "<group>"; };
 		362DB881232E9DF6003CF5CF /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		363173A924B1DD4F004468B8 /* TapeEquilibrium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeEquilibrium.swift; sourceTree = "<group>"; };
+		363173AC24B1EC9F004468B8 /* JobFair_Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFair_Anagram.swift; sourceTree = "<group>"; };
 		3664A13B231795930008EDB3 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		3664A13D231795A30008EDB3 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		3664A13F231795AD0008EDB3 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 		31C74D84ABAF5CDA093B4F8F /* Recruit */ = {
 			isa = PBXGroup;
 			children = (
+				363173AB24B1EC60004468B8 /* JobFair_2019 */,
 				3687C8862340C7AF00C852DB /* Naver_Intern_2019 */,
 				31C74101E05BFABB899E9FB2 /* Cupist_IntersectionRectArea.swift */,
 				31C740A78E016248969EE2C0 /* Line_RLE.swift */,
@@ -303,6 +306,14 @@
 				362DB881232E9DF6003CF5CF /* StringExtensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		363173AB24B1EC60004468B8 /* JobFair_2019 */ = {
+			isa = PBXGroup;
+			children = (
+				363173AC24B1EC9F004468B8 /* JobFair_Anagram.swift */,
+			);
+			path = JobFair_2019;
 			sourceTree = "<group>";
 		};
 		3664A13A231795720008EDB3 /* Concept */ = {
@@ -450,6 +461,7 @@
 				36FA8F5B2266C7BB00608635 /* B_11050.swift in Sources */,
 				31C748A9FEA51FA7896031AF /* Kakaopay_PhoneNum.swift in Sources */,
 				31C746D42F70AD07E29D41BC /* B_10826.swift in Sources */,
+				363173AD24B1EC9F004468B8 /* JobFair_Anagram.swift in Sources */,
 				31C749736CC2D9E98D31C69C /* B_11720.swift in Sources */,
 				31C742A4739E4741405875FE /* P_SumOfDivisors.swift in Sources */,
 				36986DBC232D32ED001B7A3A /* PermMissingElem.swift in Sources */,

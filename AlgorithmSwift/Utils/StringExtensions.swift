@@ -9,13 +9,11 @@
 import Foundation
 
 extension String {
-    subscript (i: Int) -> Character {
-        return self[self.index(self.startIndex, offsetBy: i)]
-    }
+
 
     // for convenience we should include String return
     subscript (i: Int) -> String {
-        return String(self[i] as Character)
+        return self[i ..< i + 1]
     }
 
     subscript (r: Range<Int>) -> String {
@@ -35,4 +33,13 @@ extension String {
     func trim() -> String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
+}
+
+extension Collection where Index: Comparable {
+    
+    // More safe way to access collection
+    subscript (safe index: Index) -> Element? {
+        return indices.contains(index) ? self[index] : nil
+    }
+
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TapeEquilibrium {
+struct TapeEquilibrium {
     
     
     func run() {
