@@ -1,4 +1,4 @@
-// Task 02 : Arrays
+// Lesson 02 : Arrays
 
 import Foundation
 

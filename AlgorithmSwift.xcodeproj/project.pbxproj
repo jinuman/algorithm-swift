@@ -334,8 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				36986DB3232CCBF0001B7A3A /* BinaryGap.swift */,
-				36986DB5232CD40D001B7A3A /* OddOccurrencesInArray.swift */,
 				36986DB7232D0704001B7A3A /* CyclicRotation.swift */,
+				36986DB5232CD40D001B7A3A /* OddOccurrencesInArray.swift */,
 				36986DB9232D0FA0001B7A3A /* FrogJmp.swift */,
 				36986DBB232D32ED001B7A3A /* PermMissingElem.swift */,
 			);
