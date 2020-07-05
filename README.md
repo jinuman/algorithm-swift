@@ -82,6 +82,7 @@
 - [CyclicRotation](AlgorithmSwift/Codility/CyclicRotation.swift)
 - [OddOccurrencesInArray](AlgorithmSwift/Codility/OddOccurrencesInArray.swift)
 
-### Time COmplexity
+### Time Complexity
 
 - [FrogJmp](AlgorithmSwift/Codility/FrogJmp.swift)
+- [PermMissingElem](AlgorithmSwift/Codility/PermMissingElem.swift)
