@@ -9,8 +9,6 @@
 import Foundation
 
 extension String {
-
-
     // for convenience we should include String return
     subscript (i: Int) -> String {
         return self[i ..< i + 1]
