@@ -1,3 +1,3 @@
 import Foundation
 
-P_SumBetweenTwoNumbers().run()
+B_1929().run()
