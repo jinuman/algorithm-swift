@@ -60,6 +60,7 @@
 		36A73F22232F6EE2009AD57B /* Naver_Intern_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A73F21232F6EE2009AD57B /* Naver_Intern_3.swift */; };
 		36B6D88122659C7300AFFF6C /* B_10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D88022659C7300AFFF6C /* B_10845.swift */; };
 		36D6CDAF25BEC7C2006D9D24 /* B_1463.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D6CDAE25BEC7C2006D9D24 /* B_1463.swift */; };
+		36D6CDB325BED088006D9D24 /* P_SumBetweenTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D6CDB225BED088006D9D24 /* P_SumBetweenTwoNumbers.swift */; };
 		36FA8F5B2266C7BB00608635 /* B_11050.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA8F5A2266C7BB00608635 /* B_11050.swift */; };
 		36FA8F5E2266DB0800608635 /* B_11729.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA8F5D2266DB0800608635 /* B_11729.swift */; };
 /* End PBXBuildFile section */
@@ -131,6 +132,7 @@
 		36A73F21232F6EE2009AD57B /* Naver_Intern_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naver_Intern_3.swift; sourceTree = "<group>"; };
 		36B6D88022659C7300AFFF6C /* B_10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_10845.swift; sourceTree = "<group>"; };
 		36D6CDAE25BEC7C2006D9D24 /* B_1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1463.swift; sourceTree = "<group>"; };
+		36D6CDB225BED088006D9D24 /* P_SumBetweenTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_SumBetweenTwoNumbers.swift; sourceTree = "<group>"; };
 		36FA8F5A2266C7BB00608635 /* B_11050.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_11050.swift; sourceTree = "<group>"; };
 		36FA8F5D2266DB0800608635 /* B_11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_11729.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +212,7 @@
 				31C74502C71756859306BF06 /* P_Budget.swift */,
 				31C747B2D88465230C0A5A4E /* P_SpacedByX.swift */,
 				31C74C99A0CFF5D057055861 /* P_SumOfDivisors.swift */,
+				36D6CDB225BED088006D9D24 /* P_SumBetweenTwoNumbers.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				31C74860789A7FEF185C3D2C /* TestAlgorithm.swift in Sources */,
 				36A73F22232F6EE2009AD57B /* Naver_Intern_3.swift in Sources */,
 				31C7450574C67C5669C4F0CE /* Cupist_IntersectionRectArea.swift in Sources */,
+				36D6CDB325BED088006D9D24 /* P_SumBetweenTwoNumbers.swift in Sources */,
 				3610B252229D697200C2C25E /* P_GymSuit.swift in Sources */,
 				31C74B68D4592FB3EEA2B3BC /* B_2527.swift in Sources */,
 				31C740E178BA13EDBC08F9D3 /* B_1929.swift in Sources */,
