@@ -159,7 +159,6 @@
 		31C742D8C175079ED02B1B78 /* Temporary */ = {
 			isa = PBXGroup;
 			children = (
-				36FA8F5D2266DB0800608635 /* B_11729.swift */,
 				36FA8F5A2266C7BB00608635 /* B_11050.swift */,
 				31C74955076A870801DA864C /* B_2527.swift */,
 				31C74B3D197209C3E5D8BE38 /* B_10826.swift */,
@@ -375,6 +374,7 @@
 		36FA8F5C2266DADC00608635 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
+				36FA8F5D2266DB0800608635 /* B_11729.swift */,
 			);
 			path = DivideAndConquer;
 			sourceTree = "<group>";
