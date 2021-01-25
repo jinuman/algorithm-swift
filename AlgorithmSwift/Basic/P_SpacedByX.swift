@@ -12,9 +12,9 @@ final class P_SpacedByX {
     }
 
     func run() {
-        print(solution(0, 3))   // [0, 0, 0]
-        print(solution(2, 5))   // [2, 4, 6, 8, 10]
-        print(solution(4, 3))   // [4, 8, 12]
-        print(solution(-4, 2))  // [-4, -8]
+        print(self.solution(0, 3))   // [0, 0, 0]
+        print(self.solution(2, 5))   // [2, 4, 6, 8, 10]
+        print(self.solution(4, 3))   // [4, 8, 12]
+        print(self.solution(-4, 2))  // [-4, -8]
     }
 }

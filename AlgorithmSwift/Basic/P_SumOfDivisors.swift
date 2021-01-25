@@ -16,7 +16,7 @@ final class P_SumOfDivisors {
     }
 
     func run() {
-        print(solution(12)) // 28
-        print(solution(5))  // 6
+        print(self.solution(12)) // 28
+        print(self.solution(5))  // 6
     }
 }

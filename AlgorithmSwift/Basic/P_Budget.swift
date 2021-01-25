@@ -19,7 +19,7 @@ final class P_Budget {
     }
 
     func run() {
-        print(solution([1, 3, 2, 5, 4], 9)) // 3
-        print(solution([2, 2, 3, 3], 10))  // 4
+        print(self.solution([1, 3, 2, 5, 4], 9)) // 3
+        print(self.solution([2, 2, 3, 3], 10))  // 4
     }
 }
