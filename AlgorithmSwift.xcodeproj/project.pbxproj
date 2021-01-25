@@ -59,6 +59,7 @@
 		36A73F20232F6ED6009AD57B /* Naver_Intern_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A73F1F232F6ED6009AD57B /* Naver_Intern_2.swift */; };
 		36A73F22232F6EE2009AD57B /* Naver_Intern_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A73F21232F6EE2009AD57B /* Naver_Intern_3.swift */; };
 		36B6D88122659C7300AFFF6C /* B_10845.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D88022659C7300AFFF6C /* B_10845.swift */; };
+		36D6CDAF25BEC7C2006D9D24 /* B_1463.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D6CDAE25BEC7C2006D9D24 /* B_1463.swift */; };
 		36FA8F5B2266C7BB00608635 /* B_11050.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA8F5A2266C7BB00608635 /* B_11050.swift */; };
 		36FA8F5E2266DB0800608635 /* B_11729.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA8F5D2266DB0800608635 /* B_11729.swift */; };
 /* End PBXBuildFile section */
@@ -129,6 +130,7 @@
 		36A73F1F232F6ED6009AD57B /* Naver_Intern_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naver_Intern_2.swift; sourceTree = "<group>"; };
 		36A73F21232F6EE2009AD57B /* Naver_Intern_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naver_Intern_3.swift; sourceTree = "<group>"; };
 		36B6D88022659C7300AFFF6C /* B_10845.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_10845.swift; sourceTree = "<group>"; };
+		36D6CDAE25BEC7C2006D9D24 /* B_1463.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_1463.swift; sourceTree = "<group>"; };
 		36FA8F5A2266C7BB00608635 /* B_11050.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_11050.swift; sourceTree = "<group>"; };
 		36FA8F5D2266DB0800608635 /* B_11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B_11729.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,7 +179,6 @@
 		31C7447B3C6F15EE462E408B /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				31C74812F53D27E6BA1574EC /* B_1003.swift */,
 				31C74B1FF2B7927EB2EA4001 /* B_1929.swift */,
 				31C7480AD7AD860771F84318 /* B_2745.swift */,
 				31C74179C7187D80A91A10A6 /* B_2747.swift */,
@@ -224,6 +225,7 @@
 				31C7450E38812B160EED32F6 /* Basic */,
 				31C74B6C1CC14DD9492FD0EB /* Stack */,
 				36B6D87F22659C4200AFFF6C /* Queue */,
+				36D6CDAD25BEC796006D9D24 /* DynamicProgramming */,
 				31C7447B3C6F15EE462E408B /* Math */,
 				3610B250229D694E00C2C25E /* Greedy */,
 				31C74EC3AE31CC7BA8EA2A06 /* Graph */,
@@ -358,6 +360,15 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
+		36D6CDAD25BEC796006D9D24 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				31C74812F53D27E6BA1574EC /* B_1003.swift */,
+				36D6CDAE25BEC7C2006D9D24 /* B_1463.swift */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
 		36FA8F5C2266DADC00608635 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +438,7 @@
 				31C741F5244AA228E2AF6EE2 /* B_10818.swift in Sources */,
 				3664A13C231795930008EDB3 /* InsertionSort.swift in Sources */,
 				3664A140231795AD0008EDB3 /* SelectionSort.swift in Sources */,
+				36D6CDAF25BEC7C2006D9D24 /* B_1463.swift in Sources */,
 				31C7478345CB5192E90ABB3D /* B_11718.swift in Sources */,
 				31C74CBFD3FCC2BDFA18CCE6 /* B_11719.swift in Sources */,
 				31C7465D3438B84F0355F6D6 /* B_1260.swift in Sources */,

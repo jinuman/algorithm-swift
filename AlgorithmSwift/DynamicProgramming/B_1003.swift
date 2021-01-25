@@ -13,13 +13,16 @@ func fibonacci(_ n: Int) {
 
 import Foundation
 
-class B_1003 {
-    private var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: 2), count: 41)
-
+final class B_1003 {
     func run() {
-        guard let testcase = Int(readLine() ?? "0") else { return }
+        var dp: [[Int]] = Array(
+            repeating: Array(repeating: 0, count: 2),
+            count: 41
+        )
 
-        for _ in 0..<testcase {
+        guard let testcaseCount = Int(readLine() ?? "0") else { return }
+
+        for _ in 0 ..< testcaseCount {
             guard let n = Int(readLine() ?? "0") else { return }
             dp[0][0] = 1
             dp[1][1] = 1
