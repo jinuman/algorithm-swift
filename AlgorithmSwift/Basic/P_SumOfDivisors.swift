@@ -1,5 +1,6 @@
 // 약수의 합
-// for 문을 n/2만 돌리는 방법
+
+// 루프를 반만 돌려서 처리!
 
 import Foundation
 
@@ -11,7 +12,7 @@ final class P_SumOfDivisors {
                 sum += i
             }
         }
-        return sum + n
+        return n + sum
     }
 
     func run() {
