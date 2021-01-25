@@ -2,17 +2,17 @@
 
 import Foundation
 
-class B_10818 {
+final class B_10818 {
     func run() {
-        guard let line = readLine()?.components(separatedBy: " ") else { return }
-        
-        let array: [Int] = line.compactMap { Int($0) }
-        
-        var max: Int = -1000000
-        var min: Int = 1000000
-        for item in array {
-            max = (item > max) ? item : max
-            min = (item < min) ? item : min
+        guard let _ = readLine(),
+              let line = readLine()?.components(separatedBy: " ") else { return }
+
+        let numbers: [Int] = line.compactMap { Int($0) }
+        var max = Int.min
+        var min = Int.max
+        for number in numbers {
+            max = (number > max) ? number : max
+            min = (number < min) ? number : min
         }
         print(min, max)
     }

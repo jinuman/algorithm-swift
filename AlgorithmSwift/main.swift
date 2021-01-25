@@ -1,3 +1,3 @@
 import Foundation
 
-JobFair_Anagram().run()
+B_10818().run()
