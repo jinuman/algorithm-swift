@@ -2,13 +2,13 @@
 
 import Foundation
 
-class P_SpacedByX {
+final class P_SpacedByX {
     func solution(_ x: Int, _ n: Int) -> [Int64] {
-        var arr = [Int64].init(repeating: 0, count: n)
+        var numbers = [Int64].init(repeating: 0, count: n)
         for i in 0 ..< n {
-            arr[i] = Int64(x * (i + 1))
+            numbers[i] = Int64(x * (i + 1))
         }
-        return arr
+        return numbers
     }
 
     func run() {

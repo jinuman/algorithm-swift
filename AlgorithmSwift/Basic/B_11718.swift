@@ -2,7 +2,7 @@
 
 import Foundation
 
-class B_11718 {
+final class B_11718 {
     func run() {
         for _ in 0 ..< 100 {
             guard let line = readLine() else { return }

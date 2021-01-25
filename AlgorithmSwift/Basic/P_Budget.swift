@@ -3,19 +3,19 @@
 
 import Foundation
 
-class P_Budget {
+final class P_Budget {
     func solution(_ d: [Int], _ budget: Int) -> Int {
-        let sortedArr = d.sorted()
-        var cnt = 0
-        var need = 0
-        for item in sortedArr {
-            if need + item > budget {
+        let sortedNumbers = d.sorted()
+        var count = 0
+        var amount = 0
+        for number in sortedNumbers {
+            if amount + number > budget {
                 break
             }
-            need += item
-            cnt += 1
+            amount += number
+            count += 1
         }
-        return cnt
+        return count
     }
 
     func run() {

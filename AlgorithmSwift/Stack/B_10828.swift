@@ -2,34 +2,34 @@
 
 import Foundation
 
-class Stack {
-    var stack = [Int]()
+struct Stack {
+    private var stack = [Int]()
 
-    func push(_ x: Int) {
-        stack.append(x)
+    mutating func push(_ x: Int) {
+        self.stack.append(x)
     }
 
-    func pop() -> Int? {
-        return stack.popLast()
+    mutating func pop() -> Int? {
+        return self.stack.popLast()
     }
 
     func top() -> Int? {
-        return stack.last
+        return self.stack.last
     }
 
     func empty() -> Int {
-        return stack.isEmpty ? 1 : 0
+        return self.stack.isEmpty ? 1 : 0
     }
 
     func size() -> Int {
-        return stack.count
+        return self.stack.count
     }
 }
 
-class B_10828 {
+final class B_10828 {
     func run() {
         guard let n = Int(readLine() ?? "0") else { return }
-        let stack = Stack()
+        var stack = Stack()
         
         for _ in 0..<n {
             guard let cmd = readLine()?.split(separator: " ") else { break }

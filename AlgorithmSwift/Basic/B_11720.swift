@@ -3,7 +3,7 @@
 
 import Foundation
 
-class B_11720 {
+final class B_11720 {
     func run() {
         guard let line = readLine() else { return }
         

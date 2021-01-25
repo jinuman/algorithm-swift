@@ -3,7 +3,7 @@
 
 import Foundation
 
-class P_SumOfDivisors {
+final class P_SumOfDivisors {
     func solution(_ n: Int) -> Int {
         var sum: Int = 0
         for i in stride(from: 1, through: n / 2, by: 1) {

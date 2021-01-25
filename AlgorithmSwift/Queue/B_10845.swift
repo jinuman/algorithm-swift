@@ -2,38 +2,38 @@
 
 import Foundation
 
-class Queue {
-    var queue = [Int]()
+struct Queue {
+    private var queue = [Int]()
     
-    func push(_ x: Int) {
-        queue.append(x)
+    mutating func push(_ x: Int) {
+        self.queue.append(x)
     }
     
-    func pop() -> Int {
-        return queue.isEmpty ? -1 : queue.removeFirst()
+    mutating func pop() -> Int {
+        return self.queue.isEmpty ? -1 : self.queue.removeFirst()
     }
     
     func size() -> Int {
-        return queue.count
+        return self.queue.count
     }
     
     func empty() -> Int {
-        return queue.isEmpty ? 1 : 0
+        return self.queue.isEmpty ? 1 : 0
     }
     
     func front() -> Int? {
-        return queue.first
+        return self.queue.first
     }
     
     func back() -> Int? {
-        return queue.last
+        return self.queue.last
     }
 }
 
-class B_10845 {
+final class B_10845 {
     func run() {
         guard let n = Int(readLine() ?? "0") else { return }
-        let queue: Queue = Queue()
+        var queue = Queue()
         
         for _ in 0..<n {
             guard let cmd = readLine()?.components(separatedBy: " ") else { break }
