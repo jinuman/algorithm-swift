@@ -2,12 +2,12 @@
 
 import Foundation
 
-class B_10824 {
+final class B_10824 {
     func run() {
         guard let array: [String] = readLine()?.components(separatedBy: " ") else { return }
-        let str1 = array[0] + array[1]
-        let str2 = array[2] + array[3]
-        print((Int(str1) ?? 0) + (Int(str2) ?? 0))
+        let firstNumberString = array[0] + array[1]
+        let secondNumberString = array[2] + array[3]
+        print((Int(firstNumberString) ?? 0) + (Int(secondNumberString) ?? 0))
     }
 }
 

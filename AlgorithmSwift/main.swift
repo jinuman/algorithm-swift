@@ -1,3 +1,3 @@
 import Foundation
 
-B_10818().run()
+B_10824().run()
