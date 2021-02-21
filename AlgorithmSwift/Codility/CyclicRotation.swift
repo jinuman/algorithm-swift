@@ -18,9 +18,9 @@ struct CyclicRotation {
     
     func run() {
         var testArray1 = [3, 8, 9, 7, 6]
-        print(self.solution(&testArray1, 3))
+        print(solution(&testArray1, 3))
         
         var testArray2 = [1, 2, 3, 4]
-        print(self.solution(&testArray2, 4))
+        print(solution(&testArray2, 4))
     }
 }

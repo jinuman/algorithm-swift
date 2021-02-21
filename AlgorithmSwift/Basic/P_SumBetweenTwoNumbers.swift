@@ -12,8 +12,8 @@ final class P_SumBetweenTwoNumbers {
     }
 
     func run() {
-        print(self.solution(3, 5))  // 12
-        print(self.solution(3, 2))  // 5
-        print(self.solution(5, 3))  // 12
+        print(solution(3, 5))  // 12
+        print(solution(3, 2))  // 5
+        print(solution(5, 3))  // 12
     }
 }

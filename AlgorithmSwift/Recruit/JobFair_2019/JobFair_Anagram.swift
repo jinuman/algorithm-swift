@@ -41,7 +41,7 @@ struct JobFair_Anagram {
     }
     
     func run() {
-        print(self.solution(a: "listen", b: "silent"))    // true
-        print(self.solution(a: "anagram", b: "MARGANA"))  // true
+        print(solution(a: "listen", b: "silent"))    // true
+        print(solution(a: "anagram", b: "MARGANA"))  // true
     }
 }

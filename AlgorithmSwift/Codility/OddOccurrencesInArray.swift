@@ -12,6 +12,6 @@ struct OddOccurrencesInArray {
     
     func run() {
         var testArray = [9, 3, 9, 3, 9, 7, 9]
-        print(self.solution(&testArray))  // 7
+        print(solution(&testArray))  // 7
     }
 }

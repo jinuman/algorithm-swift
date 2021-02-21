@@ -29,6 +29,6 @@ class Naver_Intern_1 {
     
     func run() {
         var testArray1 = [1, 4, -1, 3, 2]
-        print(self.solution(&testArray1))  // 4
+        print(solution(&testArray1))  // 4
     }
 }

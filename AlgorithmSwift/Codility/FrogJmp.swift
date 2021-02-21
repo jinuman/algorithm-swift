@@ -11,6 +11,6 @@ struct FrogJmp {
     }
     
     func run() {
-        print(self.solution(10, 85, 30)) // 3
+        print(solution(10, 85, 30)) // 3
     }
 }

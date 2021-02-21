@@ -52,12 +52,12 @@ class Naver_Intern_2 {
         var testString2 = "0  -  22 1985  --- 324"
         var testString3 = "555372654"
         
-        print(self.solution(&testString1)) // 004-448-555-583-61
-        print(self.solution(&testString2)) // 022-198-53-24
-        print(self.solution(&testString3)) // 555-372-654
+        print(solution(&testString1)) // 004-448-555-583-61
+        print(solution(&testString2)) // 022-198-53-24
+        print(solution(&testString3)) // 555-372-654
         
         var test = "   0123 ---   456"
-        print(self.solution(&test)) // 012-34-56
+        print(solution(&test)) // 012-34-56
     }
 }
 

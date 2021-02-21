@@ -208,7 +208,6 @@
 				31C742EC06AE4C00D6807228 /* B_11718.swift */,
 				31C7444BA434A220C815F345 /* B_11719.swift */,
 				31C7429D6DB7AAFA33C50620 /* B_11720.swift */,
-				31C74502C71756859306BF06 /* P_Budget.swift */,
 				31C747B2D88465230C0A5A4E /* P_SpacedByX.swift */,
 				31C74C99A0CFF5D057055861 /* P_SumOfDivisors.swift */,
 				36D6CDB225BED088006D9D24 /* P_SumBetweenTwoNumbers.swift */,
@@ -234,6 +233,7 @@
 				31C744C0240F156CCFE17D24 /* String */,
 				31C74D91FE7848B4A5F0C06B /* Implementation */,
 				31C74D84ABAF5CDA093B4F8F /* Recruit */,
+				364F9D4325E23786007B45B3 /* SummerWinterCoding */,
 				31C743825BDB188D22AC9691 /* Kakao */,
 				31C74F70B32F9BD0BCE65CF6 /* Sort */,
 				31C742D8C175079ED02B1B78 /* Temporary */,
@@ -318,6 +318,14 @@
 				363173AC24B1EC9F004468B8 /* JobFair_Anagram.swift */,
 			);
 			path = JobFair_2019;
+			sourceTree = "<group>";
+		};
+		364F9D4325E23786007B45B3 /* SummerWinterCoding */ = {
+			isa = PBXGroup;
+			children = (
+				31C74502C71756859306BF06 /* P_Budget.swift */,
+			);
+			path = SummerWinterCoding;
 			sourceTree = "<group>";
 		};
 		3664A13A231795720008EDB3 /* Concept */ = {

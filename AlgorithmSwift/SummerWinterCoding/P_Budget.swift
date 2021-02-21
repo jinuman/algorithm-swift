@@ -1,11 +1,11 @@
 // 예산
-// 2018 서머코딩
+// 2018 - Summer Coding
 
 import Foundation
 
 final class P_Budget {
     func solution(_ d: [Int], _ budget: Int) -> Int {
-        let sortedNumbers = d.sorted()
+        let sortedNumbers = d.sorted(by: <)
         var count = 0
         var amount = 0
         for number in sortedNumbers {
@@ -19,7 +19,7 @@ final class P_Budget {
     }
 
     func run() {
-        print(self.solution([1, 3, 2, 5, 4], 9)) // 3
-        print(self.solution([2, 2, 3, 3], 10))  // 4
+        print(solution([1, 3, 2, 5, 4], 9)) // 3
+        print(solution([2, 2, 3, 3], 10))  // 4
     }
 }
