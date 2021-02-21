@@ -1,3 +1,3 @@
 // MARK: - main
 
-P_EnglishEnding().run()
+P_MakePrimeNumber().run()

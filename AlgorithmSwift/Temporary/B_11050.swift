@@ -4,12 +4,11 @@
 
 import Foundation
 
-class B_11050 {
+final class B_11050 {
     private func combination(_ n: Int, _ k: Int) -> Int {
         if n == k || k == 0 {
             return 1
         }
-        
         return combination(n - 1, k - 1) + combination(n - 1, k)
     }
     

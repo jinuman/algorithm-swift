@@ -13,7 +13,7 @@
 
 import Foundation
 
-class B_1929 {
+final class B_1929 {
     private func eratosthenes(maxNumber: Int) -> [Bool] {
         var isPrimeList = [Bool].init(repeating: true, count: maxNumber + 1)
 
