@@ -32,12 +32,3 @@ extension String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
 }
-
-extension Collection where Index: Comparable {
-    
-    // More safe way to access collection
-    subscript (safe index: Index) -> Element? {
-        return indices.contains(index) ? self[index] : nil
-    }
-
-}
