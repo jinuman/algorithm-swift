@@ -1,3 +1,3 @@
 // MARK: - main
 
-P_Budget().run()
+P_SkillTree().run()

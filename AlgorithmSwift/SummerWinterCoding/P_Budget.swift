@@ -1,21 +1,21 @@
 // 예산
-// 2018 - Summer Coding
+// 2018년
 
 import Foundation
 
 final class P_Budget {
     func solution(_ d: [Int], _ budget: Int) -> Int {
         let sortedNumbers = d.sorted(by: <)
-        var count = 0
+        var answer = 0
         var amount = 0
         for number in sortedNumbers {
             if amount + number > budget {
                 break
             }
             amount += number
-            count += 1
+            answer += 1
         }
-        return count
+        return answer
     }
 
     func run() {
