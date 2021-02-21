@@ -18,22 +18,22 @@ final class B_1463 {
     func run() {
         guard let n = Int(readLine() ?? "0") else { return }
 
-        var dp: [Int] = Array(repeating: 0, count: n + 1)
-        dp[1] = 0
+        var memo: [Int] = Array(repeating: 0, count: n + 1)
+        memo[1] = 0
 
         for i in stride(from: 2, through: n, by: 1) {
-            dp[i] = dp[i - 1] + 1
+            memo[i] = memo[i - 1] + 1
             if i % 3 == 0 {
-                dp[i] = min(dp[i], dp[i / 3] + 1)
+                memo[i] = min(memo[i], memo[i / 3] + 1)
             }
             if i % 2 == 0 {
-                let calculated: Int = dp[i / 2] + 1
-                if calculated < dp[i] {
-                    dp[i] = calculated
+                let calculated: Int = memo[i / 2] + 1
+                if calculated < memo[i] {
+                    memo[i] = calculated
                 }
             }
         }
-        print(dp[n])
+        print(memo[n])
     }
 }
 

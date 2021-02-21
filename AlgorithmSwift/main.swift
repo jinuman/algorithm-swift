@@ -1,3 +1,3 @@
 // MARK: - main
 
-P_MakePrimeNumber().run()
+P_JumpAndTeleport().run()

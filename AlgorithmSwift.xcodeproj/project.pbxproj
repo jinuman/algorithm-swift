@@ -50,6 +50,7 @@
 		364F9D4925E248D2007B45B3 /* P_EnglishEnding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F9D4825E248D2007B45B3 /* P_EnglishEnding.swift */; };
 		364F9D4C25E267DB007B45B3 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F9D4B25E267DB007B45B3 /* CollectionExtensions.swift */; };
 		364F9D4F25E26A29007B45B3 /* P_MakePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F9D4E25E26A29007B45B3 /* P_MakePrimeNumber.swift */; };
+		364F9D5225E276AF007B45B3 /* P_JumpAndTeleport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364F9D5125E276AF007B45B3 /* P_JumpAndTeleport.swift */; };
 		3664A13C231795930008EDB3 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13B231795930008EDB3 /* InsertionSort.swift */; };
 		3664A13E231795A30008EDB3 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13D231795A30008EDB3 /* BubbleSort.swift */; };
 		3664A140231795AD0008EDB3 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3664A13F231795AD0008EDB3 /* SelectionSort.swift */; };
@@ -126,6 +127,7 @@
 		364F9D4825E248D2007B45B3 /* P_EnglishEnding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_EnglishEnding.swift; sourceTree = "<group>"; };
 		364F9D4B25E267DB007B45B3 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
 		364F9D4E25E26A29007B45B3 /* P_MakePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_MakePrimeNumber.swift; sourceTree = "<group>"; };
+		364F9D5125E276AF007B45B3 /* P_JumpAndTeleport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P_JumpAndTeleport.swift; sourceTree = "<group>"; };
 		3664A13B231795930008EDB3 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		3664A13D231795A30008EDB3 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		3664A13F231795AD0008EDB3 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 				364F9D4525E23822007B45B3 /* P_SkillTree.swift */,
 				364F9D4825E248D2007B45B3 /* P_EnglishEnding.swift */,
 				364F9D4E25E26A29007B45B3 /* P_MakePrimeNumber.swift */,
+				364F9D5125E276AF007B45B3 /* P_JumpAndTeleport.swift */,
 			);
 			path = SummerWinterCoding;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				31C7412B40FDA73F4CC64100 /* P_2016.swift in Sources */,
 				31C7421876D70CEC253C5BDF /* B_1924.swift in Sources */,
 				31C74860789A7FEF185C3D2C /* TestAlgorithm.swift in Sources */,
+				364F9D5225E276AF007B45B3 /* P_JumpAndTeleport.swift in Sources */,
 				36A73F22232F6EE2009AD57B /* Naver_Intern_3.swift in Sources */,
 				31C7450574C67C5669C4F0CE /* Cupist_IntersectionRectArea.swift in Sources */,
 				36D6CDB325BED088006D9D24 /* P_SumBetweenTwoNumbers.swift in Sources */,
