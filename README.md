@@ -32,6 +32,7 @@ Algorithm Problem Solving
 
 - [프로그래머스 - 예산](AlgorithmSwift/Programmers/SummerWinterCoding/P_Budget.swift)
 - [프로그래머스 - 스킬트리](AlgorithmSwift/Programmers/SummerWinterCoding/P_SkillTree.swift)
+- [프로그래머스 - 숫자 게임](AlgorithmSwift/Programmers/SummerWinterCoding/P_NumbersGame.swift)
 - [프로그래머스 - 소수 만들기](AlgorithmSwift/Programmers/SummerWinterCoding/P_MakePrimeNumber.swift)
 - [프로그래머스 - 점프와 순간 이동](AlgorithmSwift/Programmers/SummerWinterCoding/P_JumpAndTeleport.swift)
 - [프로그래머스 - 영어 끝말잇기](AlgorithmSwift/Programmers/SummerWinterCoding/P_EnglishEnding.swift)

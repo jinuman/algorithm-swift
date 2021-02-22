@@ -1,7 +1,6 @@
 // MARK: - main
 
-P_BuyingCookies().run()
+P_NumbersGame().run()
 
 Test().run()
-
 P_Level1_1().run()
