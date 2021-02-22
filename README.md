@@ -1,6 +1,6 @@
-# Algorithm Problem Solving
-
-> Language : Swift
+Algorithm Problem Solving
+=========================
+> Language: Swift [![Tuist Badge](https://img.shields.io/badge/powered%20by-Tuist-green.svg?longCache=true)](https://github.com/tuist)
 
 # Contents
 
