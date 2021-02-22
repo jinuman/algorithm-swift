@@ -3,6 +3,8 @@
 # Edit at https://www.gitignore.io/?templates=xcode,macos,swift
 
 main.swift
+Recruit/
+Temporary/
 
 ### Tuist ###
 *.xcodeproj
