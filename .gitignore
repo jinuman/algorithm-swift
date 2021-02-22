@@ -4,6 +4,18 @@
 
 main.swift
 
+### Tuist ###
+*.xcodeproj
+graph.dot
+Derived/
+
+### Xcode Path ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
 ### macOS ###
 # General
 .DS_Store
