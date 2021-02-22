@@ -1,15 +1,9 @@
-//
-//  BubbleSort.swift
-//  AlgorithmSwift
-//
-//  Created by Jinwoo Kim on 29/08/2019.
-//  Copyright © 2019 Jinuman. All rights reserved.
-//
+// Bubble Sort
 
 import Foundation
 
-class BubbleSort {
-    
+final class BubbleSort {
+
     let arr: [Int] = [3, 5, 4, 2, 9, 6, 10, 8, 7, 1]
     
     func bubbleSort(arr: [Int]) -> [Int] {

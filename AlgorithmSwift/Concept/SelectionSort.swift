@@ -5,7 +5,7 @@
 
 import Foundation
 
-class SelectionSort {
+final class SelectionSort {
     var arr: [Int] = [3, 5, 4, 2, 9, 6, 10, 8, 7, 1]
     
     func selectionSort(_ arr: inout [Int]) -> [Int] {

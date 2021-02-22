@@ -2,9 +2,11 @@
 
 > Language : Swift
 
-## Contents
+# Contents
 
 * [Concept](#Concept)
+* [Programmers](#Programmers)
+    * [Level 1](#Level-1)
 * [Basic](#Basic)
 * [Math](#Math)
 * [String](#String)
@@ -19,6 +21,16 @@
 
 - [Selection Sort](AlgorithmSwift/Concept/SelectionSort.swift)
 
+## Programmers
+
+### Level 1
+
+- [프로그래머스 - x만큼 간격이 있는 n개의 숫자](AlgorithmSwift/Programmers/Level%201/P_SpacedByX.swift)
+- [프로그래머스 - 약수의 합](AlgorithmSwift/Programmers/Level%201/P_SumOfDivisors.swift)
+- [프로그래머스 - 두 정수 사이의 합](AlgorithmSwift/Programmers/Level%201/P_SumBetweenTwoNumbers.swift)
+- [프로그래머스 - 2016년](AlgorithmSwift/Programmers/Level%201/P_2016.swift)
+- [프로그래머스 - 서울에서 김서방 찾기](AlgorithmSwift/Programmers/Level%201/P_FindKim.swift)
+
 ### Basic
 
 - [백준 11718 - 그대로 출력하기](AlgorithmSwift/Basic/B_11718.swift)
@@ -27,8 +39,7 @@
 - [백준 10818 - 최소, 최대](AlgorithmSwift/Basic/B_10818.swift)
 - [백준 10824 - 네 수](AlgorithmSwift/Basic/B_10824.swift)
 - [프로그래머스 - 예산](AlgorithmSwift/Basic/P_Budget.swift)
-- [프로그래머스 - x만큼 간격이 있는 n개의 숫자](AlgorithmSwift/Basic/P_SpacedByX.swift)
-- [프로그래머스 - 약수의 합](AlgorithmSwift/Basic/P_SumOfDivisors.swift)
+
 
 ### Stack
 
@@ -64,7 +75,6 @@
 ### Implementation
 
 - [백준 1924 - 2007년](AlgorithmSwift/Implementation/B_1924.swift)
-- [프로그래머스 - 2016년](AlgorithmSwift/Implementation/P_2016.swift)
 
 ### Kakao
 

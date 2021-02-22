@@ -215,12 +215,12 @@
 		31C74647810C0E32AE1419EE /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3664A13A231795720008EDB3 /* Concept */,
 				36935D4825E2C6D2002D9D3A /* Programmers */,
 				36935D4925E2C6EB002D9D3A /* Baekjoon */,
 				36986DB2232CCBD2001B7A3A /* Codility */,
 				31C74189462D00E5774733B9 /* main.swift */,
 				362DB880232E9DDF003CF5CF /* Utils */,
-				3664A13A231795720008EDB3 /* Concept */,
 				31C74D84ABAF5CDA093B4F8F /* Recruit */,
 				31C742D8C175079ED02B1B78 /* Temporary */,
 			);
