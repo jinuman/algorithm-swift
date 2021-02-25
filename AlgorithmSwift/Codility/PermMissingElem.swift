@@ -15,8 +15,10 @@ struct PermMissingElem {
         return allSum - aSum
     }
 
-    private func goodSolution(_ A: inout [Int]) -> Int {
-        return (1 ... A.count + 1).filter { !A.contains($0) }.first ?? 0
+    // array 의 크기가 클 경우 효율성에서 점수가 깎임
+    private func functionalSolution(_ A: inout [Int]) -> Int {
+        let A = A
+        return (1 ... A.count + 1).lazy.filter { !A.contains($0) }.first ?? 0
     }
     
     func run() {
