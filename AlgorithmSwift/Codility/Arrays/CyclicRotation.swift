@@ -9,10 +9,9 @@ import Foundation
 struct CyclicRotation {
     func solution(_ A: inout [Int], _ K: Int) -> [Int] {
         var answer = [Int].init(repeating: 0, count: A.count)
-        let size = A.count
-        for i in stride(from: 0, to: size, by: 1) {
-            let index = (i + K) % size
-            answer[index] = A[i]
+        for (offset, element) in A.enumerated() {
+            let index = (offset + K) % A.count
+            answer[index] = element
         }
         return answer
     }
