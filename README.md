@@ -60,6 +60,7 @@ Algorithm Problem Solving
 
 - [FrogJmp](AlgorithmSwift/Codility/FrogJmp.swift)
 - [PermMissingElem](AlgorithmSwift/Codility/PermMissingElem.swift)
+- [TapeEquilibrium](AlgorithmSwift/Codility/TapeEquilibrium.swift)
 
 ## Baekjoon
 
