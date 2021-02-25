@@ -8,15 +8,13 @@ import Foundation
 
 struct CyclicRotation {
     func solution(_ A: inout [Int], _ K: Int) -> [Int] {
-        var resultArray = [Int].init(repeating: 0, count: A.count)
+        var answer = [Int].init(repeating: 0, count: A.count)
         let size = A.count
-        
         for i in stride(from: 0, to: size, by: 1) {
             let index = (i + K) % size
-            resultArray[index] = A[i]
+            answer[index] = A[i]
         }
-        
-        return resultArray
+        return answer
     }
     
     func run() {
