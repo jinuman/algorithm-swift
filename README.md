@@ -10,6 +10,9 @@ Algorithm Problem Solving
     * [Summer Winter Coding](#Summer-Winter-Coding)
     * [Kakao](#Kakao)
 * [Codility](#Codility)
+    * [Iterations](#Iterations)
+    * [Arrays](#Arrays)
+    * [Time Complexity](#Time-Complexity)
 * [Baekjoon](#Baekjoon)
 
 * * *
@@ -49,18 +52,18 @@ Algorithm Problem Solving
 
 ### Iterations
 
-- [BinaryGap](AlgorithmSwift/Codility/BinaryGap.swift)
+- [BinaryGap](AlgorithmSwift/Codility/Iterations/BinaryGap.swift)
 
 ### Arrays
 
-- [CyclicRotation](AlgorithmSwift/Codility/CyclicRotation.swift)
-- [OddOccurrencesInArray](AlgorithmSwift/Codility/OddOccurrencesInArray.swift)
+- [CyclicRotation](AlgorithmSwift/Codility/Arrays/CyclicRotation.swift)
+- [OddOccurrencesInArray](AlgorithmSwift/Codility/Arrays/OddOccurrencesInArray.swift)
 
 ### Time Complexity
 
-- [FrogJmp](AlgorithmSwift/Codility/FrogJmp.swift)
-- [PermMissingElem](AlgorithmSwift/Codility/PermMissingElem.swift)
-- [TapeEquilibrium](AlgorithmSwift/Codility/TapeEquilibrium.swift)
+- [FrogJmp](AlgorithmSwift/Codility/Time%20Complexity/FrogJmp.swift)
+- [PermMissingElem](AlgorithmSwift/Codility/Time%20Complexity/PermMissingElem.swift)
+- [TapeEquilibrium](AlgorithmSwift/Codility/Time%20Complexity/TapeEquilibrium.swift)
 
 ## Baekjoon
 
