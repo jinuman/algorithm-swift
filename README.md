@@ -69,6 +69,7 @@ Algorithm Problem Solving
 ### Counting Elements
 
 - [FrogRiverOne](AlgorithmSwift/Codility/Counting%20Elements/FrogRiverOne.swift)
+- [PermCheck](AlgorithmSwift/Codility/Counting%20Elements/PermCheck.swift)
 
 ## Baekjoon
 
