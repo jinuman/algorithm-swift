@@ -13,6 +13,7 @@ Algorithm Problem Solving
     * [Iterations](#Iterations)
     * [Arrays](#Arrays)
     * [Time Complexity](#Time-Complexity)
+    * [Counting Elements](#Counting-Elements)
 * [Baekjoon](#Baekjoon)
 
 * * *
@@ -64,6 +65,10 @@ Algorithm Problem Solving
 - [FrogJmp](AlgorithmSwift/Codility/Time%20Complexity/FrogJmp.swift)
 - [PermMissingElem](AlgorithmSwift/Codility/Time%20Complexity/PermMissingElem.swift)
 - [TapeEquilibrium](AlgorithmSwift/Codility/Time%20Complexity/TapeEquilibrium.swift)
+
+### Counting Elements
+
+- [FrogRiverOne](AlgorithmSwift/Codility/Counting%20Elements/FrogRiverOne.swift)
 
 ## Baekjoon
 
