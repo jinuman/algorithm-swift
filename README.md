@@ -76,6 +76,7 @@ Algorithm Problem Solving
 
 ### Prefix Sums
 
+- [CountDiv](AlgorithmSwift/Codility/Prefix%20Sums/CountDiv.swift)
 - [PassingCars](AlgorithmSwift/Codility/Prefix%20Sums/PassingCars.swift)
 
 ## Baekjoon
