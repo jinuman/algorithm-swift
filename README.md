@@ -71,6 +71,7 @@ Algorithm Problem Solving
 - [FrogRiverOne](AlgorithmSwift/Codility/Counting%20Elements/FrogRiverOne.swift)
 - [PermCheck](AlgorithmSwift/Codility/Counting%20Elements/PermCheck.swift)
 - [MissingInteger](AlgorithmSwift/Codility/Counting%20Elements/MissingInteger.swift)
+- [MaxCounters](AlgorithmSwift/Codility/Counting%20Elements/MaxCounters.swift)
 
 ## Baekjoon
 
