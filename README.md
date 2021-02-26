@@ -14,6 +14,7 @@ Algorithm Problem Solving
     * [Arrays](#Arrays)
     * [Time Complexity](#Time-Complexity)
     * [Counting Elements](#Counting-Elements)
+    * [Prefix Sums](#Prefix-Sums)
 * [Baekjoon](#Baekjoon)
 
 * * *
@@ -72,6 +73,10 @@ Algorithm Problem Solving
 - [PermCheck](AlgorithmSwift/Codility/Counting%20Elements/PermCheck.swift)
 - [MissingInteger](AlgorithmSwift/Codility/Counting%20Elements/MissingInteger.swift)
 - [MaxCounters](AlgorithmSwift/Codility/Counting%20Elements/MaxCounters.swift)
+
+### Prefix Sums
+
+- [PassingCars](AlgorithmSwift/Codility/Prefix%20Sums/PassingCars.swift)
 
 ## Baekjoon
 
