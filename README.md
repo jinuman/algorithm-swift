@@ -78,6 +78,7 @@ Algorithm Problem Solving
 
 - [CountDiv](AlgorithmSwift/Codility/Prefix%20Sums/CountDiv.swift)
 - [PassingCars](AlgorithmSwift/Codility/Prefix%20Sums/PassingCars.swift)
+- [GenomicRangeQuery](AlgorithmSwift/Codility/Prefix%20Sums/GenomicRangeQuery.swift)
 
 ## Baekjoon
 
