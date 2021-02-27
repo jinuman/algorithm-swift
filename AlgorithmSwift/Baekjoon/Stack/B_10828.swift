@@ -1,15 +1,13 @@
 // 스택
 
-import Foundation
-
-struct Stack {
+final class Stack {
     private var stack = [Int]()
 
-    mutating func push(_ x: Int) {
+    func push(_ x: Int) {
         self.stack.append(x)
     }
 
-    mutating func pop() -> Int? {
+    func pop() -> Int? {
         return self.stack.popLast()
     }
 
@@ -26,27 +24,31 @@ struct Stack {
     }
 }
 
-final class B_10828 {
+struct B_10828 {
+    func solution(_ n: Int, _ command: String, _ stack: Stack) {
+        let command: [Substring] = command.split(separator: " ")
+        switch command[0] {
+        case "push":
+            stack.push(Int(command[1]) ?? 0)
+        case "pop":
+            print(stack.pop() ?? -1)
+        case "top":
+            print(stack.top() ?? -1)
+        case "empty":
+            print(stack.empty())
+        case "size":
+            print(stack.size())
+        default:
+            break
+        }
+    }
+
     func run() {
         guard let n = Int(readLine() ?? "0") else { return }
-        var stack = Stack()
-        
-        for _ in 0..<n {
-            guard let cmd = readLine()?.split(separator: " ") else { break }
-            switch cmd[0] {
-            case "push":
-                stack.push(Int(cmd[1]) ?? 0)
-            case "pop":
-                print(stack.pop() ?? -1)
-            case "top":
-                print(stack.top() ?? -1)
-            case "empty":
-                print(stack.empty())
-            case "size":
-                print(stack.size())
-            default:
-                break
-            }
+        let stack = Stack()
+        for _ in 0 ..< n {
+            guard let command = readLine() else { break }
+            solution(n, command, stack)
         }
     }
 }

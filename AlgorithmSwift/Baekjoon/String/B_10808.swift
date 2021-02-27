@@ -6,8 +6,6 @@
 
 // firstIndex(of:), joined(separator:)
 
-import Foundation
-
 struct B_10808 {
     func solution(_ input: String) -> String {
         let alphabets = Array("abcdefghijklmnopqrstuvwxyz")
