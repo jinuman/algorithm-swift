@@ -7,14 +7,12 @@
  * K is an integer within the range [1..2,000,000,000];
  * A ≤ B.
 
- A 와 B 사이에 K 로 나누어 떨어지는 숫자의 개수 return
+ A 와 B 사이에 K로 나누어 떨어지는 숫자의 개수 return
  */
 
 /*
  시간 복잡도: O(1)
  */
-
-import Foundation
 
 struct CountDiv {
     /// 50% = O(N)

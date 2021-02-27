@@ -1,7 +1,7 @@
 // Lesson 04 : Prefix Sums
 
 /*
- 배열 A 의 요소들은 도로상의 차들을 의미
+ 배열 A의 요소들은 도로상의 차들을 의미
  0: 동쪽으로 여행하는 차
  1: 서쪽으로 여행하는 차
  (P, Q) : P는 동쪽으로 여행하는 차, Q는 서쪽으로 여행하는 차
@@ -20,8 +20,6 @@
 /*
  시간 복잡도: O(N)
  */
-
-import Foundation
 
 struct PassingCars {
     func solution(_ A: inout [Int]) -> Int {

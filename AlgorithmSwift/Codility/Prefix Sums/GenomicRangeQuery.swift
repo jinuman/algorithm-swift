@@ -25,8 +25,6 @@
  시간 복잡도: O(N + M)
  */
 
-import Foundation
-
 struct GenomicRangeQuery {
     func solution(_ S: inout String, _ P: inout [Int], _ Q: inout [Int]) -> [Int] {
         var answer = [Int](repeating: 0, count: P.count)

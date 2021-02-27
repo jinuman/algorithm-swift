@@ -1,7 +1,7 @@
 // Lesson 02 : Arrays
 
 /*
- 배열을 K 번 오른쪽으로 shift 시킨 배열을 return 하는 문제
+ 배열을 K번 오른쪽으로 shift 시킨 배열을 return 하는 문제
  */
 
 import Foundation
