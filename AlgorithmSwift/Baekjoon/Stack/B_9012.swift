@@ -6,11 +6,11 @@
 
 struct B_9012 {
     func solution(_ input: String) -> String {
-        var stack: [String] = []
-        for i in stride(from: 0, to: input.count, by: 1) {
-            if input[i] == "(" {
-                stack.append(input[i])
-            } else if input[i] == ")" {
+        var stack: [String.Element] = []
+        for element in input {
+            if element == "(" {
+                stack.append(element)
+            } else if element == ")" {
                 if stack.isEmpty {
                     return "NO"
                 }
