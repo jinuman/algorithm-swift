@@ -25,7 +25,7 @@ final class Stack {
 }
 
 struct B_10828 {
-    func solution(_ n: Int, _ command: String, _ stack: Stack) {
+    func solution(_ command: String, _ stack: Stack) {
         let command: [Substring] = command.split(separator: " ")
         switch command[0] {
         case "push":
@@ -44,11 +44,10 @@ struct B_10828 {
     }
 
     func run() {
-        guard let n = Int(readLine() ?? "0") else { return }
         let stack = Stack()
-        for _ in 0 ..< n {
+        for _ in 0 ..< Int(readLine()!)! {
             guard let command = readLine() else { break }
-            solution(n, command, stack)
+            solution(command, stack)
         }
     }
 }
