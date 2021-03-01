@@ -2,9 +2,9 @@
 
 import Foundation
 
-class B_1260 {
+final class B_1260 {
     var graph = [[Int]]()
-    var isVisited = [Bool]()
+    var visit = [Bool]()
 
     func run() {
         guard let line = readLine()?.split(separator: " ") else { return }
@@ -14,7 +14,7 @@ class B_1260 {
         let m = inputs[1]
         let startNode = inputs[2]
         graph = [[Int]].init(repeating: [], count: n + 1)
-        isVisited = [Bool].init(repeating: false, count: n + 1)
+        visit = [Bool].init(repeating: false, count: n + 1)
         for _ in 0..<m {
             guard let edgeLine = readLine()?.split(separator: " ") else { return }
             let edge: [Int] = edgeLine.compactMap { Int($0) }
@@ -29,7 +29,7 @@ class B_1260 {
         }
         dfs(startNode)
         print()
-        isVisited = [Bool].init(repeating: false, count: n + 1)
+        visit = [Bool].init(repeating: false, count: n + 1)
         bfs(startNode)
         print()
     }
@@ -37,11 +37,11 @@ class B_1260 {
 
 extension B_1260 {
     func dfs(_ x: Int) {
-        isVisited[x] = true
+        visit[x] = true
         print(x, terminator: " ")
         for i in 0..<graph[x].count {
             let next = graph[x][i]
-            if !isVisited[next] {
+            if !visit[next] {
                 dfs(next)
             }
         }
@@ -51,14 +51,14 @@ extension B_1260 {
 extension B_1260 {
     func bfs(_ start: Int) {
         var queue: [Int] = []
-        isVisited[start] = true
+        visit[start] = true
         queue.append(start)
         while !queue.isEmpty {
             let x = queue.removeFirst()
             print(x, terminator: " ")
             for next in graph[x] {
-                if !isVisited[next] {
-                    isVisited[next] = true
+                if !visit[next] {
+                    visit[next] = true
                     queue.append(next)
                 }
             }
