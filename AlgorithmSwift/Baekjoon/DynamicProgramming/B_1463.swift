@@ -38,11 +38,11 @@ final class B_1463 {
 }
 
 /*
- input
- 1. 2
- 2. 10
+input
+1. 2
+2. 10
 
- output
- 1. 1
- 2. 3
- */
+output
+1. 1
+2. 3
+*/

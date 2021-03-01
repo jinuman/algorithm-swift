@@ -68,9 +68,9 @@ struct B_2135 {
 }
 
 /*
- input
- letsgogogo
+input
+letsgogogo
 
- output
- 9
- */
+output
+9
+*/

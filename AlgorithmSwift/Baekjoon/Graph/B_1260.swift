@@ -26,8 +26,8 @@ final class B_1260 {
         let m = inputs[1]
         let start = inputs[2]
 
-        graph = [[Int]].init(repeating: [], count: n + 1)
-        visit = [Bool].init(repeating: false, count: n + 1)
+        graph = [[Int]](repeating: [], count: n + 1)
+        visit = [Bool](repeating: false, count: n + 1)
 
         // 그래프 초기화
         for _ in stride(from: 0, to: m, by: 1) {

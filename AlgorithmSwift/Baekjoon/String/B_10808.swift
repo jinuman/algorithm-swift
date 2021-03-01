@@ -25,9 +25,9 @@ struct B_10808 {
 }
 
 /*
- input
- baekjoon
+input
+baekjoon
 
- output
- 1 1 0 0 1 0 0 0 0 1 1 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0
- */
+output
+1 1 0 0 1 0 0 0 0 1 1 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0
+*/
