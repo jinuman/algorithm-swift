@@ -31,4 +31,12 @@ extension String {
     func trim() -> String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
+
+    func times(_ n: Int) -> String {
+        var repeatedString = String()
+        for _ in 0 ..< n {
+            repeatedString += self
+        }
+        return repeatedString
+    }
 }
