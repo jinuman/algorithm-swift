@@ -18,10 +18,6 @@
  n: 3, lost: [3], reserve: [1] -> 1은 3을 빌려줄 수 없으므로 3 - 1 = 2 return
  */
 
-/* 풀이
-
- */
-
 import Foundation
 
 struct P_GymSuit {
