@@ -10,22 +10,22 @@ import Foundation
 
 extension String {
     // for convenience we should include String return
-    subscript (i: Int) -> String {
+    subscript(i: Int) -> String {
         return self[i ..< i + 1]
     }
 
-    subscript (r: Range<Int>) -> String {
-        let start = self.index(self.startIndex, offsetBy: r.lowerBound)
-        let end = self.index(self.startIndex, offsetBy: r.upperBound)
+    subscript(range: Range<Int>) -> String {
+        let startIndex = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let endIndex = self.index(self.startIndex, offsetBy: range.upperBound)
 
-        return String(self[start ..< end])
+        return String(self[startIndex ..< endIndex])
     }
 
-    subscript (r: ClosedRange<Int>) -> String {
-        let start = self.index(self.startIndex, offsetBy: r.lowerBound)
-        let end = self.index(self.startIndex, offsetBy: r.upperBound)
+    subscript(range: ClosedRange<Int>) -> String {
+        let startIndex = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let endIndex = self.index(self.startIndex, offsetBy: range.upperBound)
 
-        return String(self[start ... end])
+        return String(self[startIndex ... endIndex])
     }
 
     func trim() -> String {
