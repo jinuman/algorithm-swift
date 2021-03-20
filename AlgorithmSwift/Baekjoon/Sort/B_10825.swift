@@ -6,7 +6,7 @@
 
 import Foundation
 
-class B_10825 {
+final class B_10825 {
     struct Student {
         let name: String
         let kor: Int
@@ -14,39 +14,40 @@ class B_10825 {
         let math: Int
     }
     
-    typealias st = Student
-    
     func run() {
-        if let n = Int(readLine() ?? "") {
-            
-            var students = [st]()
-            
-            for _ in 0..<n {
-                if let s = readLine()?.split(separator: " ") {
-                    students.append(st(name: String(s[0]), kor: Int(s[1]) ?? 0, eng: Int(s[2]) ?? 0, math: Int(s[3]) ?? 0))
-                }
-            }
-            
-            students.sort { (s0, s1) -> Bool in
-                if s0.kor != s1.kor {
-                    return s0.kor > s1.kor
+        let n = Int(readLine()!)!
+
+        var students = [Student]()
+
+        for _ in stride(from: 0, to: n, by: 1) {
+            let line = readLine()!.split(separator: " ")
+            let student = Student(
+                name: line[0].description,
+                kor: Int(line[1])!,
+                eng: Int(line[2])!,
+                math: Int(line[3])!
+            )
+            students.append(student)
+        }
+
+        students.sort { (current, compare) -> Bool in
+            if current.kor != compare.kor {
+                return current.kor > compare.kor
+            } else {
+                if current.eng != compare.eng {
+                    return current.eng < compare.eng
                 } else {
-                    if s0.eng != s1.eng {
-                        return s0.eng < s1.eng
+                    if current.math != compare.math {
+                        return current.math > compare.math
                     } else {
-                        if s0.math != s1.math {
-                            return s0.math > s1.math
-                        } else {
-                            return s0.name < s1.name
-                        }
+                        return current.name < compare.name
                     }
                 }
             }
-            
-            for i in 0..<n {
-                print("\(students[i].name)")
-            }
-            
+        }
+
+        for i in 0..<n {
+            print("\(students[i].name)")
         }
     }
 }
