@@ -13,54 +13,60 @@ import Foundation
 
 final class B_2667 {
     struct Pair {
-        let x: Int
-        let y: Int
+        let row: Int
+        let column: Int
 
-        init(_ x: Int, _ y: Int) {
-            self.x = x
-            self.y = y
+        init(_ row: Int, _ column: Int) {
+            self.row = row
+            self.column = column
         }
     }
 
-    var n = Int()
     var map = [[Int]]()
     var visit = [[Int]]() // 방문했으면 단지 번호 저장
-    let dx = [-1, 1, 0, 0]
-    let dy = [0, 0, -1, 1]
 
-    func bfs(_ x: Int, _ y: Int, _ number: Int) {
+    // 좌, 우, 상, 하
+    let dRow = [0, 0, -1, 1]
+    let dColumn = [-1, 1, 0, 0]
+
+    func bfs(row: Int, column: Int, length: Int, number: Int) {
         var queue: [Pair] = []
-        queue.append(Pair(x, y))
-        visit[x][y] = number
+        queue.append(Pair(row, column))
+        visit[row][column] = number
         while !queue.isEmpty {
             let pair = queue.removeFirst()
             for k in 0 ..< 4 {
-                let nextX = pair.x + dx[k]
-                let nextY = pair.y + dy[k]
-                if 0 <= nextX, nextX < n,
-                   0 <= nextY, nextY < n,
-                   visit[nextX][nextY] == 0,
-                   map[nextX][nextY] == 1 {
-                    queue.append(Pair(nextX, nextY))
-                    visit[nextX][nextY] = number // 단지 번호 표시
+                let nextRow = pair.row + dRow[k]
+                let nextColumn = pair.column + dColumn[k]
+                if 0 <= nextRow, nextRow < length,
+                   0 <= nextColumn, nextColumn < length,
+                   visit[nextRow][nextColumn] == 0,
+                   map[nextRow][nextColumn] == 1 {
+                    queue.append(Pair(nextRow, nextColumn))
+                    visit[nextRow][nextColumn] = number // 단지 번호 표시
                 }
             }
         }
     }
 
-    func solution() {
+    func solution(length: Int) {
         var number: Int = 0 // 단지 번호
-        for i in stride(from: 0, to: n, by: 1) {
-            for j in stride(from: 0, to: n, by: 1) {
+        for i in stride(from: 0, to: length, by: 1) {
+            for j in stride(from: 0, to: length, by: 1) {
                 if visit[i][j] == 0, map[i][j] == 1 {
                     number += 1
-                    bfs(i, j, number)
+                    bfs(
+                        row: i,
+                        column: j,
+                        length: length,
+                        number: number
+                    )
                 }
             }
         }
         var house = [Int](repeating: 0, count: number + 1)
-        for i in stride(from: 0, to: n, by: 1) {
-            for j in stride(from: 0, to: n, by: 1) {
+        for i in stride(from: 0, to: length, by: 1) {
+            for j in stride(from: 0, to: length, by: 1) {
                 if visit[i][j] != 0 {
                     house[visit[i][j]] += 1
                 }
@@ -74,7 +80,7 @@ final class B_2667 {
     }
 
     func run() {
-        n = Int(readLine()!)!
+        let n = Int(readLine()!)!
         map = [[Int]](repeating: [], count: n)
         visit = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
 
@@ -84,7 +90,7 @@ final class B_2667 {
                 map[i].append(Int(element.asciiValue! - 48))
             }
         }
-        solution()
+        solution(length: n)
     }
 }
 
