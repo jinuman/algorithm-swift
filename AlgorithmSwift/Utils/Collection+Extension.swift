@@ -1,11 +1,3 @@
-//
-//  CollectionExtensions.swift
-//  AlgorithmSwift
-//
-//  Created by Jinwoo Kim on 2021/02/21.
-//  Copyright © 2021 Jinuman. All rights reserved.
-//
-
 import Foundation
 
 extension Collection where Index: Comparable {
