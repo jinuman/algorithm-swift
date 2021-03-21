@@ -3,17 +3,7 @@
 
 import Foundation
 
-extension Int {
-    func power(_ num: Int) -> Int {
-        var result = 1
-        for _ in 0..<num {
-            result *= self
-        }
-        return result
-    }
-}
-
-class B_2745 {
+final class B_2745 {
     func run() {
         let arr = Array("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ").map({ String($0) })
         guard let input = readLine()?.split(separator: " ").map({ String($0.uppercased()) }) else { return }
