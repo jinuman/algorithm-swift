@@ -33,6 +33,10 @@ Algorithm Problem Solving
 - [프로그래머스 - 2016년](AlgorithmSwift/Programmers/Level%201/P_2016.swift)
 - [프로그래머스 - 서울에서 김서방 찾기](AlgorithmSwift/Programmers/Level%201/P_FindKim.swift)
 
+### Level 2
+
+- [프로그래머스 - 가장 큰 정사각형 찾기](AlgorithmSwift/Programmers/Level%202/P_FindMaxSquare.swift)
+
 ### Summer Winter Coding
 
 - [프로그래머스 - 예산](AlgorithmSwift/Programmers/SummerWinterCoding/P_Budget.swift)
