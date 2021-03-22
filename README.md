@@ -46,6 +46,7 @@ Algorithm Problem Solving
 - [프로그래머스 - 점프와 순간 이동](AlgorithmSwift/Programmers/SummerWinterCoding/P_JumpAndTeleport.swift)
 - [프로그래머스 - 영어 끝말잇기](AlgorithmSwift/Programmers/SummerWinterCoding/P_EnglishEnding.swift)
 - [프로그래머스 - 방문 길이](AlgorithmSwift/Programmers/SummerWinterCoding/P_LandingLength.swift)
+- [프로그래머스 - 멀쩡한 사각형](AlgorithmSwift/Programmers/SummerWinterCoding/P_FineSquare.swift)
 - [프로그래머스 - 쿠키 구입](AlgorithmSwift/Programmers/SummerWinterCoding/P_BuyingCookies.swift)
 
 ### Kakao
