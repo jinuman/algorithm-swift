@@ -67,6 +67,27 @@ struct B_2135 {
     }
 }
 
+private extension String {
+    subscript(i: Int) -> String {
+        return self[i ..< i + 1]
+    }
+
+    subscript(range: Range<Int>) -> String {
+        let startIndex = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let endIndex = self.index(self.startIndex, offsetBy: range.upperBound)
+
+        return String(self[startIndex ..< endIndex])
+    }
+
+    subscript(range: ClosedRange<Int>) -> String {
+        let startIndex = self.index(self.startIndex, offsetBy: range.lowerBound)
+        let endIndex = self.index(self.startIndex, offsetBy: range.upperBound)
+
+        return String(self[startIndex ... endIndex])
+    }
+}
+
+
 /*
 input
 letsgogogo

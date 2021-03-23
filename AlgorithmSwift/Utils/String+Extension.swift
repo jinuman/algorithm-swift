@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+private extension String {
     // for convenience we should include String return
     subscript(i: Int) -> String {
         return self[i ..< i + 1]
@@ -19,7 +19,9 @@ extension String {
 
         return String(self[startIndex ... endIndex])
     }
+}
 
+private extension String {
     func trim() -> String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
