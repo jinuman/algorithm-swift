@@ -17,6 +17,7 @@
  */
 
 struct P_FindMaxSquare {
+
     func solution(_ board: [[Int]]) -> Int {
         // 모든 원소가 0 이라면
         if board.flatMap({ $0 }).allSatisfy({ $0 == 0 }) {
@@ -27,7 +28,7 @@ struct P_FindMaxSquare {
         let col = board[board.startIndex].count
 
         if row <= 1 || col <= 1 {
-            return 1 // 정사각형이 1밖에 나올 수 없다.
+            return 1 // 정사각형이 1밖에 나올 수 없음
         }
         var memo = board
 
@@ -45,6 +46,7 @@ struct P_FindMaxSquare {
                 }
             }
         }
+        // 배열을 다 돌리고 가장 큰 값이 가장 큰 정사각형의 변의 길이가 됨
         return maxLength * maxLength
     }
 
